@@ -1,0 +1,56 @@
+{
+  "id": "FP-####",
+  "schema_version": "1.1.0",
+  "type": "atom | bundle",
+  "name": "",
+  "canonical_slug": "",
+  "aliases": [],
+  "definition": "",
+  "core_claim": "If... then... because...",
+  "idea_origin": {
+    "event_summary": "",
+    "trigger": "",
+    "lesson_learned": ""
+  },
+  "canonical_instruction": "",
+  "applicability": {
+    "domains": [],
+    "audiences": [],
+    "situations": [],
+    "exclusions": []
+  },
+  "transformation_rules": [],
+  "tests": [],
+  "counterexamples": [],
+  "input_triggers": [],
+  "output_format_targets": [],
+  "related": [
+    {
+      "id": "FP-####",
+      "relation": "overlaps | generalizes | specializes | duplicate_of | bundles_with | contradicts",
+      "note": ""
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-#### | FP-????",
+      "name": "",
+      "role": "",
+      "pole": "",
+      "applies_when": ""
+    }
+  ],
+  "effect_fingerprint": "verb->verb->verb",
+  "priority": 50,
+  "specificity": 50,
+  "status": "active | draft | deprecated | merged | split",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": "null | recompile | rename | merge | split | replace",
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "ISO-8601 (+08:00)",
+  "updated_at": "ISO-8601 (+08:00)",
+  "source_transcript": "",
+  "assumptions": []
+}
