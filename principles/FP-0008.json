@@ -1,0 +1,124 @@
+{
+  "id": "FP-0008",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "High vs low self-esteem diagnosis via emotional diversification and sabotage patterns",
+  "canonical_slug": "hse-vs-lse-emotional-diversification-sabotage",
+  "aliases": ["HSE vs LSE", "high deservingness vs low deservingness", "attachment-based self-esteem"],
+  "definition": "Self-esteem (more accurately: deservingness) determines how someone handles emotional closeness. High self-esteem people seek closeness, want one partner to fulfill all needs, and display self-respect/transparency/strong boundaries. Low self-esteem people believe they're not inherently likable (people like them for extrinsic things: looks, money, skills), so they diversify emotional needs across multiple partners to feel safer, sabotage perfect situations hoping to be pursued, and form transactional relationships. Detection: check for emotional diversification (men: rotation; women: orbiters—one guy for friendship, one for money, one for sex). Self-esteem may be domain-specific and possibly an offshoot of competence—speaker has HSE in dating (knows he's irreplaceable) but LSE in business (hedges, stutters, afraid to set boundaries).",
+  "core_claim": "If someone diversifies emotional needs across multiple partners instead of consolidating them, then they have low self-esteem, because they don't believe they deserve to have all needs met by one person and fear losing everything if that one person leaves. This manifests as men keeping rotations, women keeping orbiters (best friend guy + provider guy + sex guy), and sabotaging perfect situations hoping to be pursued.",
+  "idea_origin": {
+    "event_summary": "Speaker describes this as the single principle that changed his life most. Used to be low self-esteem: wanted validation, chased hottest girls even if bad for him, only dated women with boyfriends/husbands to avoid responsibility for all their needs. Now has high self-esteem in dating but notices it doesn't carry over to business.",
+    "trigger": "Noticing the contrast between how he handles dating (self-respect, transparency, strong boundaries, knows he's irreplaceable) vs business (hedges, stutters in meetings, scared to set boundaries with boss, indirect communication).",
+    "lesson_learned": "Self-esteem is domain-specific. Speaker got really good at dating before developing self-esteem there. The question remains: is self-esteem an offshoot of competence? High self-esteem appears after proving you're skilled, unique, and irreplaceable in that domain."
+  },
+  "canonical_instruction": "Identify if the user is exhibiting HSE or LSE patterns by checking: (1) Do they consolidate emotional/professional needs in one source or diversify across many? (2) Do they sabotage good situations hoping to be pursued? (3) Are their relationships transactional or connection-based? (4) Do they believe people like them for them or for extrinsic value? Map their behavior to the HSE pattern (seeks closeness, consolidates, transparent boundaries) or LSE pattern (diversifies, sabotages, transactional, believes they're liked for extrinsic things). If LSE, note that building competence in the domain may precede self-esteem development.",
+  "applicability": {
+    "domains": ["relationships", "dating", "business", "self-development", "attachment"],
+    "audiences": ["people wondering why they self-sabotage", "people with commitment issues", "people who keep rotations or orbiters", "people confident in one domain but not another"],
+    "situations": ["relationship pattern analysis", "diagnosing why someone keeps sabotaging good things", "understanding why confidence doesn't transfer across domains", "evaluating potential partners"],
+    "exclusions": ["clinical attachment disorders requiring professional treatment", "situations where diversification is genuinely strategic not fear-based"]
+  },
+  "transformation_rules": [
+    "List the user's current emotional/professional need sources and check if consolidated or diversified",
+    "Check for sabotage pattern: do they push away or test good situations?",
+    "Check relationship basis: connection-based (HSE) or transactional/extrinsic (LSE)?",
+    "Classify as HSE or LSE based on these patterns",
+    "If LSE, identify if they've built competence in the domain yet",
+    "Note that self-esteem may develop after competence is established"
+  ],
+  "tests": [
+    "Output identifies emotional diversification pattern (rotation for men, orbiters for women)",
+    "Output mentions the specific orbiter roles if applicable (best friend guy, provider guy, sex guy)",
+    "Output checks for sabotage-to-be-pursued pattern",
+    "Output distinguishes transactional relationships from connection-based ones",
+    "Output acknowledges domain-specificity of self-esteem (can be HSE in dating, LSE in business)",
+    "No generic self-esteem advice without mapping to specific HSE/LSE behavioral indicators"
+  ],
+  "counterexamples": [
+    "Strategic diversification that isn't fear-based (e.g., networking intentionally)",
+    "Genuine polyamory based on preference not fear of consolidation",
+    "Clinical attachment disorders beyond this framework's scope"
+  ],
+  "input_triggers": [
+    "keeping a rotation of partners instead of committing",
+    "having multiple orbiters who each serve different functions",
+    "sabotaging good relationships or opportunities",
+    "believing people only like you for your skills/looks/money not for you",
+    "only going for unavailable people (with boyfriends, married)",
+    "confident in dating but stutter in business meetings",
+    "scared to set boundaries with boss but not with romantic partners",
+    "forming transactional relationships (free trip mentality)"
+  ],
+  "output_format_targets": ["self-diagnosis", "relationship coaching", "partner evaluation", "business confidence analysis"],
+  "related": [
+    {
+      "id": "FP-0007",
+      "relation": "bundles_with",
+      "note": "Self-esteem being domain-specific connects to stable vs dynamic domains—HSE in dating (stable) doesn't transfer to business (dynamic)"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0008a",
+      "name": "HSE seeks emotional consolidation; LSE diversifies across partners",
+      "role": "core",
+      "pole": "",
+      "applies_when": "Diagnosing whether someone is HSE or LSE based on how they distribute emotional needs"
+    },
+    {
+      "id": "FP-0008b",
+      "name": "LSE sabotages perfect situations hoping to be pursued",
+      "role": "mechanism",
+      "pole": "LSE",
+      "applies_when": "Someone pushes away good partners/opportunities and creates drama to test if they'll be chased"
+    },
+    {
+      "id": "FP-0008c",
+      "name": "LSE believes likability is extrinsic (looks/money/skills) not intrinsic",
+      "role": "mechanism",
+      "pole": "LSE",
+      "applies_when": "Someone believes partners only want them for what they provide, not who they are"
+    },
+    {
+      "id": "FP-0008d",
+      "name": "HSE displays self-respect, transparency, and strong boundaries",
+      "role": "traits",
+      "pole": "HSE",
+      "applies_when": "Someone tells people immediately when they did something wrong, is direct in communication"
+    },
+    {
+      "id": "FP-0008e",
+      "name": "Self-esteem may be an offshoot of proven competence in that domain",
+      "role": "hypothesis",
+      "pole": "",
+      "applies_when": "Speaker developed HSE in dating only after getting really good at it first; suggests competence precedes self-esteem"
+    },
+    {
+      "id": "FP-0008f",
+      "name": "Emotional diversification pattern: orbiters (woman) or rotation (man)",
+      "role": "detection",
+      "pole": "LSE",
+      "applies_when": "Woman has: one guy = best friend, one guy = pays for stuff, one guy = sex. Man keeps girls in rotation, fears commitment."
+    }
+  ],
+  "effect_fingerprint": "check_consolidation_vs_diversification->check_sabotage_pattern->check_transactional_vs_connection->classify_hse_lse->note_domain_specificity",
+  "priority": 90,
+  "specificity": 60,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-14T00:00:00+08:00",
+  "updated_at": "2026-01-14T00:00:00+08:00",
+  "source_transcript": "High self-esteem vs. low self-esteem in an ML or masterful lover context. I actually think this is the single principle that's changed my life the most, personally. Right now, I have developed high self-esteem for ML, and before that, everything was very different. So, self-esteem might be a loaded word; what is actually more accurate is high deserventness and low deserventness.\n\nThere are a few I'll just call them high self-esteem/low self-esteem simplification. Right? So, there are a few differences. This is actually based on attachment theory, can't remember by who, if it's Carl Jung or this is actually based on attachment theory, right? One of those guys, and the theory is the theory for high vs. low self-esteem. The base theory is that how comfortable someone is being emotionally close to somebody. That's one pillar.\n\nAnd so, what that means is that if someone has high self-esteem, they seek emotional closeness and to be understood by people that they respect. Or, they're not afraid of emotional closeness if the person is correct, right? The thing about low self-esteem people is they say they want emotional closeness but they believe that it could never be true to them, true for them, because they believe that they're not inherently likable. Like, people always like them for something that's not them, their looks, their money, their whatever. Consequently, they also like people for the same thing. Something that's extrinsic to them, their looks, their money, the acts as they provide. A lot of times, a high self-esteem person will enjoy someone's company for the sake of connection or enjoying company or something. A low self-esteem person will enjoy someone's company or be in a relationship for convenience, for give and take, for \"I'm getting this\" (free trip is transactional). Right?\n\nAnd so, speaking from myself who used to be low self-esteem, the only way I could describe it on a personal level was when my self-esteem was lower, everything was in flux. Like, I really wanted validation from a lot of people. I wanted to be with the hottest girls even if I knew that they were bad for me. I wanted to be perceived a certain way. Girls didn't want to be with me because of me. I inherently believed that the only reason girls want to be with me was because I was good at game or I was good at sex or I knew how to do ML. And because of that, I actually started only going for girls at boyfriends or married women. And the reason I did that was because I didn't want to be responsible for their entire needs. I just wanted to meet this one need of them (like, meet the sex part) and being too close to them or receiving all of them would be too scary for me.\n\nSo, that's the first part. And then let me read the notes now actually because there is quite a bit.\n\nOkay, high self-esteem vs. low self-esteem. Drama, right? So, low self-esteem people a lot more drama. Why is this? Because even if somebody comes into their life that is perfect, a perfect partner, a perfect person, a perfect job, a perfect anything, they inherently don't believe that they deserve that and so they will sabotage it hoping that they are either pursued or basically like they will sabotage something perfect trying to get pursued. Sabotage something perfect trying to get pursued sabotage something perfect trying to get pursued. And they want to feel Actually, I don't know what the hell they want to feel right. Like, I think they want to feel like \"Yes, see, invalidated by the action of being pursued not by just being there already not by being close to someone but repeatedly trying to get someone close to them or trying to get close to somebody\". Okay, so that's one part.\n\nOkay, so emotional diversification. This is something directly from attachment theory. A high self-esteem person wants their partner to be everything to them as much as possible. That means they want their partner to be their best lover, someone they trust, a life partner, someone they could do a lot of things with, etc. Low self-esteem people actually avoid this. What this means is they will actually try to split their emotional needs up into multiple partners because it feels safer.\n\nSo, how does this look like in theory? For a man, that means never wanting to settle down and being scared of commitment by having a set of girls in rotation. For a woman, it means having orbiterers. What does that mean? It means a woman has:\n\n- One guy that's her best friend\n- One guy that pays for all her stuff\n- One guy that's like macho and good at sex\n\nAnd they never want to combine it because the fear of losing one is too scary for them. So that is emotional diversification in a nutshell. It is one of the easiest ways to actually identify high self-esteem vs low self-esteem. You could just look at somebody's relationship history or look at the amount of emotional diversification they have in their life. If you want to go for a girl, she has a bunch of guys around her all the time, bunch of guys best friends, that is not the girl you should go for.\n\nSo, how do I relate this to business?\n\nYeah, it's the same. High self-esteem, deservedness. You know? You're always saying, \"Yeah, I'm going to create a brand or an agency or this or something.\" But you would always say, \"But I don't have all the skills yet, as let's say, as Jiraya has.\" And of course that is valid. But of course people also start with nothing. Needs to be like that perfect. It's not like it's trading where you need to be 99% right.\n\nSomething interesting to bring up is that I've noticed that I have high self-esteem in real life. How do I say this? Mostly so, what is high self-esteem? Essentially, right? We were to put it through traits, vulnerability is a strength, another side it. That's the wrong notes, discard that. What is high self-esteem?\n\n1. Self-respect\n2. Transparency\n3. Strong boundaries\n\nI tell someone as soon as they did something wrong to me. I noticed that I am significantly worse at doing all of this in a business setting. So what that means is that if my boss asked me to do something I immediately think it's stupid. I'm not about to set a boundary and say I'm not willing to do that right away.\n\nI noticed that the way I communicate with either my boss or my client/clients is a lot more indirect than I am in real life. There's a lot more hedging. I'm a lot more scared to show when I mess up and scared to own it. And I don't know what's up. Sometimes you're much more confident, whereas in meetings sometimes you would kind of stutter or like you know uh uh uh or something, whereas in real life you really don't have that kind of problem with articulating an idea or something that you know.\n\nYeah, that is true. So a question to bring up is, \"Is self-esteem an offshoot of competence?\" So why do I have such high self-esteem when it comes to women? I know I'm the sh*t, I know I'm amazing. Essentially, right? So I know I have relationship skills I've built up over time, I know that I've already repeatedly dated the type of women that I want to date (I've been with essentially a bunch of models already). I'm happy there. I know that what I've gotten from women is essentially I've also gotten them to cheat on their husbands and boyfriends with me, so I know I definitely have something. And I know that I definitely have leverage.\n\nSo what that means is that I know I'm skilled, I know I am unique, I know I'm irreplaceable, right, in the dating space, essentially in my head at least. And that does not carry over to work at all. I know I'm good, but there's a very big skill gap between good and irreplaceable, right? So I don't know if self-esteem is an offshoot of capability. I'm not sure myself yet, but all I know is that before I had self-esteem with women and with girls and in relationships, I got really, really, really good at them first, right? And so, how do I achieve that same level of confidence and self-esteem, the same level of transparency, and the same level of ability to say no and in work? I'm not sure yet, but this is something I need to think about actually.",
+  "assumptions": [
+    "Classified as bundle due to multiple poles (HSE/LSE), multiple mechanisms (diversification, sabotage, extrinsic belief), and domain-specific application",
+    "Priority 90 reflects speaker stating this is 'the single principle that changed my life the most'",
+    "The orbiter breakdown (best friend guy, provider guy, sex guy) is preserved as key detection heuristic",
+    "Speaker's personal journey (LSE→HSE in dating, still LSE in business) preserved as evidence for competence→self-esteem hypothesis",
+    "Attachment theory referenced but not imported beyond what transcript explicitly states"
+  ]
+}

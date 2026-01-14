@@ -1,0 +1,110 @@
+{
+  "id": "FP-0007",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Stable domains preserve skill transfer; dynamic domains invalidate it",
+  "canonical_slug": "stable-domains-vs-dynamic-domains-skill-transfer",
+  "aliases": ["stable vs dynamic domains", "criteria stability"],
+  "definition": "Some domains have stable success criteria that persist across decades (dating: dominance, leading, emotional openness, logistics). Other domains have dynamic criteria that change constantly (Twitter: threads worked 5 years ago, now dead; crypto: meme coin meta changes every cycle). Skills from stable domains transfer across time—Rob's game from 20 years ago still works. Skills from dynamic domains expire—what worked on Twitter 5 years ago would kill you today. In dynamic domains, not just methods change but the entire goalpost/metric changes (impressions → time spent reading → back to impressions).",
+  "core_claim": "If you assume skills transfer 1:1 from a stable domain to a dynamic domain, then you will fail, because stable domains have criteria that persist for decades (dating fundamentals work from caveman to future) while dynamic domains have criteria that expire and entire goalposts that shift (Twitter algorithm changes, crypto metas flip each cycle).",
+  "idea_origin": {
+    "event_summary": "Rob and Joey claimed 'We're so good with girls, if we just apply this to business it would be the same.' Speaker disagreed because dating rules don't change over time while business/marketing rules change constantly.",
+    "trigger": "Comparing dating (Rob's game from 20 years ago still works, speaker's ML is same as 10 years ago) to Twitter marketing (threads worked 5 years ago, now nobody reads them; the way people wrote 5 years ago is how AI writes today and everyone hates it).",
+    "lesson_learned": "Not every skill carries over to every domain. Stable domains allow principle transfer across time with only contextual rewording. Dynamic domains require tracking which metric is the new goalpost—methods and entire structures must change because the goal itself changes."
+  },
+  "canonical_instruction": "Identify whether the user's source domain is stable or dynamic (do success criteria persist for 10+ years?). Identify whether the target domain is stable or dynamic. If transferring from stable to dynamic, warn that methods will expire and they must track changing goalposts. If transferring from stable to stable, show that principles transfer with contextual rewording only. List the specific criteria/metrics that define success in the target domain and note how recently they changed.",
+  "applicability": {
+    "domains": ["skill transfer", "career transitions", "learning strategy", "business", "relationships"],
+    "audiences": ["people transferring skills across domains", "generalists", "people assuming past success predicts future success in new fields"],
+    "situations": ["applying relationship skills to business", "applying old marketing tactics to current platforms", "entering crypto or other fast-changing industries", "assuming expertise in one area transfers directly to another"],
+    "exclusions": ["within-domain skill development where criteria are already known", "domains where the user is already tracking current meta"]
+  },
+  "transformation_rules": [
+    "Identify the source domain and classify as stable (criteria unchanged 10+ years) or dynamic (criteria change frequently)",
+    "Identify the target domain and classify as stable or dynamic",
+    "If source=stable and target=dynamic, list 2-3 examples of expired tactics in the target domain",
+    "Name the current goalpost/metric in the target domain and when it last changed",
+    "For dynamic targets, specify that both methods AND goals must be re-evaluated, not just tactics",
+    "For stable targets, show that principles transfer with contextual rewording only"
+  ],
+  "tests": [
+    "Output explicitly classifies both source and target domain as stable or dynamic",
+    "Output includes at least one concrete example of expired tactics (threads on Twitter, last cycle crypto strategy)",
+    "Output names the current success metric in the target domain",
+    "No assumption that skills transfer 1:1 across domain types",
+    "Output distinguishes between method changes and goalpost changes for dynamic domains",
+    "Dating/relationships classified as stable; Twitter/crypto classified as dynamic"
+  ],
+  "counterexamples": [
+    "Transferring skills within the same domain type (stable→stable or dynamic→dynamic with current meta knowledge)",
+    "Domains where the user is actively tracking current criteria already",
+    "Rare cases where a dynamic domain has temporarily stabilized"
+  ],
+  "input_triggers": [
+    "assuming skills from relationships apply directly to business",
+    "using tactics that worked years ago on current platforms",
+    "investing in crypto like last cycle",
+    "Rob and Joey saying 'if we apply this to business it would be the same'",
+    "threads worked 5 years ago but now nobody reads them",
+    "the way people wrote 5 years ago is how AI writes today",
+    "parents good at business but bad at relationships",
+    "wondering why past success isn't translating to new domain"
+  ],
+  "output_format_targets": ["coaching", "strategy advice", "career guidance", "skill transfer analysis"],
+  "related": [
+    {
+      "id": "FP-0003",
+      "relation": "specializes",
+      "note": "This principle constrains when skill transference works—only across matching domain types or stable→stable"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0007a",
+      "name": "Stable domains have success criteria that persist across decades",
+      "role": "core",
+      "pole": "stable",
+      "applies_when": "Domain fundamentals (dating: dominance, leading, emotional openness) work from caveman to future with only contextual rewording"
+    },
+    {
+      "id": "FP-0007b",
+      "name": "Dynamic domains have success criteria that expire and shift",
+      "role": "core",
+      "pole": "dynamic",
+      "applies_when": "Platform algorithms change, metas flip, what worked years ago now fails (Twitter threads, crypto cycles)"
+    },
+    {
+      "id": "FP-0007c",
+      "name": "Dynamic domains require goalpost tracking, not just method updates",
+      "role": "mechanism",
+      "pole": "dynamic",
+      "applies_when": "The entire metric shifts (impressions → time spent reading → back to impressions) not just the tactics"
+    },
+    {
+      "id": "FP-0007d",
+      "name": "Skill transfer fails when domain types mismatch",
+      "role": "warning",
+      "pole": "",
+      "applies_when": "User assumes stable domain skills (dating) transfer 1:1 to dynamic domain (business/marketing)"
+    }
+  ],
+  "effect_fingerprint": "classify_domain_stability->compare_source_target->list_expired_tactics->name_current_goalpost->warn_if_mismatch",
+  "priority": 75,
+  "specificity": 55,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-14T00:00:00+08:00",
+  "updated_at": "2026-01-14T00:00:00+08:00",
+  "source_transcript": "Stable domains vs dynamic domains. Okay, I'll tell you what it means. It's sort of like what you brought up where, if I have self-esteem or competence in one area, shouldn't it carry over to another area? And what Rob and Joey are basically saying is that, \"We're so good with girls. If we just apply this to business, it would be the same.\" Right? And what I said was, \"The thing about being good with girls is the rules don't change over time. Right? Like sure, you have to modify it a little bit, but if you're a dominant, if you know the lead, if you know how to be emotionally open, if you know how to plan logistics, all of that, that carries over whether you're a caveman or you're in the future. Right?\n\nNot all domains have stable cart criteria. A good example is online businesses and marketing. If I did what I did five years ago on Twitter, I would be dead. Like the way to grow five years ago was writing threads, and now nobody reads threads. Right? The metrics are completely different if you wrote even how people wrote five years ago is how AI writes today, and everyone thinks that slot is basically. And it was the best, coolest way of writing so direct with so many bullet points. Oh my God, good conversion rate. Right? And that I think that's the difference between a domain that is stable and a domain that's dynamic where the rules change all the time.\n\nIn something like business, the rules change, and some verticals have rules that change quicker than other verticals. Like crypto is one of those things where the meta changes all the time. Right? Essentially, you know meme coins are a thing and then they're not, and so if you just invested like it was last cycle you'd be wrecked. That's completely not the truth for relationships where my ML is the same ML from 10 years ago, Rob's game is the same game from 20 years ago; he uses the funniest lines from the past; it still works. And so this is something where skill carries over absolutely. Does not transfer one-to-one, but this is something where the principal transfers one-to-one, just not the overlapping skill. Right?\n\nSo what do I mean? For a stable domain like dating, girls are like you could almost say the same thing; you just have to reword it today, 10 years ago, 20 years ago; reword it make it contextual; it'll work. Essentially, right? I guess the routines will work as long as our contextual. For dynamic domains, you really have to think about which metric is now the new goalpost. In the past, it was impressions until everybody started to boost impressions, then the Twitter algorithm changed, and now it's time spent reading and then changed again, then maybe it's back to impressions. Right? And so not only does the method have to change, but the entire system or structure has to change because the goal changes, and that's not the same at all for stable domains.\n\nSo, anything that added that that I think that's a pretty big distinction. Like, why is this important? Because not every skill carries over to every domain, and definitely it's easy to get tripped up assuming every skill does carry over to every domain. Extremely successful. You know, the skills don't carry over. We have so many examples from real life, you know. I'd say your parents are like really good at business, but then let's say relationships. It's like that's a good point. Yeah, this is good. Alright, keep going.",
+  "assumptions": [
+    "Classified as bundle because it has two poles (stable/dynamic) and multiple mechanisms (criteria persistence, skill transfer, goalpost shifting)",
+    "Dating/ML explicitly classified as stable domain per transcript (10-20 year skill persistence cited)",
+    "Twitter/marketing/crypto explicitly classified as dynamic domain per transcript (5-year expiration, algorithm changes)",
+    "Priority 75 reflects practical importance for skill transfer decisions",
+    "Related to skill transference principle as constraint on when transfer works"
+  ]
+}

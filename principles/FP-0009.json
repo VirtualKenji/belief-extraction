@@ -1,0 +1,122 @@
+{
+  "id": "FP-0009",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Premium margin comes from strategy value not execution value",
+  "canonical_slug": "premium-margin-strategy-vs-execution-value",
+  "aliases": ["value types", "strategy vs execution", "where margin comes from"],
+  "definition": "Value is anything that causes another person to want something. Value has types: social value (Rob: girls fighting over him, being king of the club), survival value (paying for partner's stuff, support), and business value. In business, clients don't pay premium for execution (how many tweets, how many threads, outputs). Premium margin comes from strategy value: understanding what client needs before they say it, finding solutions outside project scope, seeing problems before client sees them, and providing multiple paths from A to B (if way A fails, can you go way B?). High margins allow throwing in extras as 'coat-and-crate freebies' which look like bonus value to the client.",
+  "core_claim": "If you charge for execution outputs (tweets, threads, deliverables), then you get low margins, because premium comes from strategy value: anticipating client needs they haven't articulated, solving problems outside stated scope, and providing multiple paths to the goal so if way A fails you can go way B.",
+  "idea_origin": {
+    "event_summary": "Discussing value with Rob (who values social status—girls fighting over him, being king of the club) and learning business value from Jay who learned from Alex Hormozy.",
+    "trigger": "Observing that Jay and Alex Hormozy charge high prices and margins, then use those margins to throw in extras as 'coat-and-crate freebies'—which requires understanding what clients need before they say it.",
+    "lesson_learned": "The premium is not in execution (how many threads, how many tweets). It's in strategy: seeing problems before the client, expanding scope proactively, and having backup paths if the first approach fails."
+  },
+  "canonical_instruction": "Identify what the user is currently charging for (execution outputs vs strategy). List the execution outputs they deliver (tweets, threads, deliverables). Then list strategy value they could add: (1) problems they could anticipate before client articulates, (2) solutions outside stated scope that would help, (3) alternative paths if primary approach fails. Show that premium margin comes from the strategy layer, not the execution layer. If margins are low, check if they're only selling execution.",
+  "applicability": {
+    "domains": ["business", "freelancing", "consulting", "agency work", "client services"],
+    "audiences": ["freelancers selling outputs", "agencies competing on deliverables", "consultants trying to raise prices", "anyone wondering where premium pricing comes from"],
+    "situations": ["pricing services", "competing with cheaper alternatives", "trying to increase margins", "client asking 'why do you cost more'"],
+    "exclusions": ["commoditized markets where execution IS the value", "roles where strategy isn't expected or wanted"]
+  },
+  "transformation_rules": [
+    "List current deliverables/outputs being charged for (execution layer)",
+    "Identify what the client needs but hasn't articulated yet",
+    "Identify solutions outside the stated project scope that would help",
+    "Identify backup paths if the primary approach fails (way A fails → way B)",
+    "Show that these strategy elements justify premium pricing",
+    "Note that high margins allow throwing in extras as perceived bonus value"
+  ],
+  "tests": [
+    "Output distinguishes execution value (outputs, deliverables) from strategy value (anticipation, scope expansion, multiple paths)",
+    "Output lists specific examples of what client needs before they say it",
+    "Output includes the 'if way A fails, can you go way B' multiple-path concept",
+    "No suggestion that premium comes from doing more execution work",
+    "Output mentions that high margins enable 'coat-and-crate freebies' that look like bonus value"
+  ],
+  "counterexamples": [
+    "Pure commodity services where execution quality is the only differentiator",
+    "Clients who explicitly don't want strategy, just outputs",
+    "Situations where scope expansion would be seen as overstepping"
+  ],
+  "input_triggers": [
+    "pricing based on deliverable count (how many tweets, how many threads)",
+    "competing with cheaper alternatives on execution",
+    "low margins despite high output volume",
+    "client asking why you cost more than others",
+    "wanting to charge premium but unsure how to justify it",
+    "doing good work but not getting paid accordingly",
+    "learning from Alex Hormozy or Jay's pricing approach"
+  ],
+  "output_format_targets": ["pricing strategy", "client pitch", "service positioning", "consulting advice"],
+  "related": [
+    {
+      "id": "FP-0004",
+      "relation": "overlaps",
+      "note": "Both address margins and value creation, but FP-0004 is about input-output multiplication while this is about strategy vs execution value"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0009a",
+      "name": "Value is anything that causes another person to want something",
+      "role": "definition",
+      "pole": "",
+      "applies_when": "Establishing what value means before distinguishing types"
+    },
+    {
+      "id": "FP-0009b",
+      "name": "Social value comes from status and being desired (Rob: king of the club)",
+      "role": "type",
+      "pole": "social",
+      "applies_when": "Valuing being fought over, being the only guy, saying the right things"
+    },
+    {
+      "id": "FP-0009c",
+      "name": "Survival value comes from support and provision",
+      "role": "type",
+      "pole": "survival",
+      "applies_when": "Paying for partner's stuff, making sure they're supported"
+    },
+    {
+      "id": "FP-0009d",
+      "name": "Execution value is outputs and deliverables (low margin)",
+      "role": "type",
+      "pole": "execution",
+      "applies_when": "Charging for how many tweets, threads, or tangible outputs produced"
+    },
+    {
+      "id": "FP-0009e",
+      "name": "Strategy value is anticipation, scope expansion, and multiple paths (high margin)",
+      "role": "core",
+      "pole": "strategy",
+      "applies_when": "Understanding needs before client says them, solutions outside scope, way A fails → way B"
+    },
+    {
+      "id": "FP-0009f",
+      "name": "High margins enable coat-and-crate freebies that look like bonus value",
+      "role": "mechanism",
+      "pole": "",
+      "applies_when": "Pricing high enough to throw in extras that increase perceived value"
+    }
+  ],
+  "effect_fingerprint": "list_execution_outputs->identify_unarticulated_needs->find_scope_expansion->map_backup_paths->justify_premium",
+  "priority": 75,
+  "specificity": 55,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-14T00:00:00+08:00",
+  "updated_at": "2026-01-14T00:00:00+08:00",
+  "source_transcript": "Okay, so yeah, value is one of the big, the main belief systems for Rob. And then whether you ask me, I ask you if it's the same as how you define value. So no, yes, it's the same way I define value, but not the way I see it. Right? So I think the easiest way to define value is anything that causes another person to want something, right? And for Rob, how he views value is primarily social, right? So Rob really likes when girls fight over him. He really likes when hot girls fight over him. He likes walking into a club. He likes being the king. He's King Rob. That's it. He likes saying the right things. He likes being the only guy, and that is legitimate, right? That's social value, right? That is extremely different from, let's say, survival value, which is the sort of value I give you, which is like you don't need me to live essentially. Like, pay for your stuff and make sure you're supported. That's completely different, right? But in both cases, we're doing something that's valuable to a person essentially, right? And in terms of business, the values that people pay for in business, right? They're not paying for just work. They're not paying for just, I type this, they're not paying for outputs, right? The margins that the business can get really depends on the value that they get, right? And this is actually something I learned from Jay again, good lessons I'm learning from him, right? Is something he learned from Alex Hormozy. And so what Alex Hormozy and Jay do is they charge these tremendously high prices and margins, and they do because their margins are so high they afford to throw things in as coat-and-crate freebies, and so what that looks to the client is that the client is paying a lot but it also looks like they're getting a lot of coat-and-crate free value from the client. Right? And on one hand you could say, \"Okay, that's sneaky as hell, right?\" On the other hand you could say, \"Well, that is actually that takes a level of innovation because to give that kind of service to the client you have to understand what the client needs even when they don't say it. You have to be willing to find solutions that are outside of the scope of the project. You need to find things that are valuable. You need to see what a client's problems may be before they see it. And that's where all the margin is, right? The premium for the payment is not in the execution of the work. It's not in how many threads of KOLs or how many tweets I do. It is in the strategy essentially, right? It is not only can you get them from point A to point B but can you get them from point A to point B in many ways, and if way A fails, could you go the way B etc etc. Does that make sense so far? Any other thing to add? I don't think so.",
+  "assumptions": [
+    "Classified as bundle due to multiple value types (social, survival, execution, strategy) and mechanism explanation",
+    "The Rob example (king of club, girls fighting) preserved as social value archetype",
+    "Jay/Alex Hormozy pricing approach preserved as source of strategy value insight",
+    "Priority 75 reflects practical business application with clear mechanism",
+    "'Coat-and-crate freebies' phrase preserved as unique terminology from transcript"
+  ]
+}

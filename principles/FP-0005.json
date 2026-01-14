@@ -1,0 +1,99 @@
+{
+  "id": "FP-0005",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Authority by proxy requires no input from the perceiver",
+  "canonical_slug": "authority-by-proxy-requires-no-input-from-perceiver",
+  "aliases": ["pre-selection authority", "social proof authority", "borrowed authority"],
+  "definition": "Traditional authority-building methods (reward-punishment, boundary talks, frame control) require the other person to act first before you can respond. Pre-selection bypasses this by having someone the audience already respects engage positively with you. A big influencer commenting on your post gives you authority instantly, without needing any prior interaction with the audience.",
+  "core_claim": "If you need authority fast without time to build reputation, then use pre-selection (get someone the audience respects to engage positively with you) because traditional authority methods (boundary talks, reward-punishment, frame control) all require the perceiver to act first, which doesn't work when nobody cares about your brand yet.",
+  "idea_origin": {
+    "event_summary": "Working as the last remaining contractor for clients who fired everyone else. Needed to build Twitter traction fast with severe time constraints.",
+    "trigger": "Asking 'How do I build authority if I didn't have any time?' and comparing pickup game pre-selection (walking into a club with hot girls) to social media engagement patterns.",
+    "lesson_learned": "Authority by proxy (someone respected doing X to your account) works instantly and doesn't require inputs from receivers, unlike boundary talks or reward-punishment which need the other person to act first."
+  },
+  "canonical_instruction": "Identify that the user needs authority without time to build it organically. List the traditional authority methods unavailable to them (boundary talks need boundary violations, reward-punishment needs behaviors to reward/punish, frame control needs frame violations). Show that pre-selection bypasses this by requiring only one action: get someone the audience already respects to visibly engage with you (comment, repost, collaborate). Specify the mechanism: perceived endorsement transfers the authority figure's credibility to you instantly.",
+  "applicability": {
+    "domains": ["social media", "personal branding", "marketing", "client work", "networking"],
+    "audiences": ["people building new brands", "contractors needing fast results", "anyone starting from zero traction"],
+    "situations": ["new account with no following", "tight deadlines for social proof", "entering a new industry", "client work requiring fast authority"],
+    "exclusions": ["situations where you already have audience attention", "contexts where borrowed authority is seen as inauthentic", "industries where pre-selection is irrelevant (e.g., highly technical/credential-based)"]
+  },
+  "transformation_rules": [
+    "Identify the user's current authority-building method and check if it requires receiver input",
+    "If it requires receiver input and they have no traction, flag this as blocked",
+    "List authority figures in their target space whose engagement would transfer credibility",
+    "Specify one concrete action that could generate visible engagement from that authority figure",
+    "Show why this bypasses the need for the audience to act first"
+  ],
+  "tests": [
+    "Output identifies at least one traditional authority method and why it's blocked for low-traction accounts",
+    "Output names a specific type of authority figure relevant to the user's domain",
+    "Output specifies a concrete action to generate engagement (not vague advice like 'network more')",
+    "No suggestion to 'just wait' or 'build over time' when time is constrained",
+    "Output explains the mechanism: endorsement transfers credibility instantly"
+  ],
+  "counterexamples": [
+    "Accounts that already have enough traction for boundary talks/frame control to work",
+    "Domains where credentials matter more than social proof (academia, medicine, law)",
+    "Situations where manufactured social proof would backfire if discovered"
+  ],
+  "input_triggers": [
+    "new brand with no traction",
+    "need authority fast without time",
+    "traditional authority methods feel blocked",
+    "nobody is engaging yet so there's nothing to respond to",
+    "client needs social proof immediately",
+    "entering a space where nobody knows you",
+    "firing other contractors, you're the last one standing"
+  ],
+  "output_format_targets": ["social media strategy", "client pitch", "brand launch plan", "coaching"],
+  "related": [
+    {
+      "id": "FP-0003",
+      "relation": "overlaps",
+      "note": "Both relate to transferring value/credibility across contexts"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0005a",
+      "name": "Traditional authority methods require receiver input first",
+      "role": "problem",
+      "pole": "",
+      "applies_when": "User is trying to use boundary talks, reward-punishment, or frame control on an audience that isn't paying attention yet"
+    },
+    {
+      "id": "FP-0005b",
+      "name": "Pre-selection bypasses the input requirement",
+      "role": "core",
+      "pole": "",
+      "applies_when": "User has zero traction but can access or engineer engagement from someone the audience respects"
+    },
+    {
+      "id": "FP-0005c",
+      "name": "Authority by proxy transfers instantly via visible endorsement",
+      "role": "mechanism",
+      "pole": "",
+      "applies_when": "An authority figure (big influencer, thought leader) visibly engages with the user's content"
+    }
+  ],
+  "effect_fingerprint": "identify_blocked_methods->list_authority_figures->specify_endorsement_action->explain_transfer_mechanism",
+  "priority": 75,
+  "specificity": 55,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-14T00:00:00+08:00",
+  "updated_at": "2026-01-14T00:00:00+08:00",
+  "source_transcript": "Role stability or the fastest way to build authority? A problem I had to solve is that I'm the last one standing for my clients. Essentially, they fired the other contractors except for me. And I know I'm good, but I also know that I could lose my jobs really quickly. So I need to turn things around very quickly and create some traction on Twitter for my clients as it goes rather right.\n\nAnd I thought about this time constraint and I'm like, \"Hmm, how do I build authority? If I didn't have any time, how does someone build authority without time?\" This is related to skill transference, first principle thinking, or any of that. And I looked into domains I already knew. One of those was that there are a lot of ways to build authority in the real world that I do so:\n\n1. Punish-reward, where you incentivize behaviors that you like and you essentially reward behaviors you don't like. That is one way to build authority because you're building role stability, which is what happens when people know what they can expect out of you, then you have authority. That is one sort of a fast way to build authority, but like reward-punishment builds role stability.\n2. A boundary talk builds your own stability. Essentially, someone crosses your boundaries, they you say something and you set a boundary, they respect you, you respect yourself more. That's two.\n3. Frame control, like somebody steers it to top sears a conversation topic you don't like and you could just steer it back. It's very simple. The problem with all these approaches is that they need the other person to do something first for you to do it. So for a boundary talk, someone needs to cross your boundaries for you to have the talk. For a water punishment, someone has to do something good or bad to you before you can attack their or the punishment. For frame control, someone has to go to topic you don't like or steer the frame, and this doesn't help you if nobody cares about your brand because nobody's going to do anything new. Essentially, right, so all of these things are unavailable to a brand with no traction.\n\nWhat are other ways people build authority in pickups specifically? There is pre-selection, which is basically you walk into a club, you're round hot girls, and all of a sudden everybody looks. Now you're able to talk to any girl because the girls saw you walk in with hot girls and they see that you are pre-selected, so they know they make assumptions about you - you're safe, you're cool, you have value. This is independent of time. You don't need to build up your reputation with these girls that see you walking. To the girls you don't need to talk to them. You don't need to wait for them to cross your boundaries. This is the quickest way to build authority essentially in pickup without needing an input from the perceiver.\n\nIf you break this down, how does it actually look like in terms of first principles? What is pre-selection or social proof? How does that work in terms of first principles? All that means is that somebody people care about is giving you a desired behavior that is essentially how you build authority. So, how does that translate into social media? A big influencer or some account of authority or some thought leader is doing x to your account (x = desired behavior). Right, so let's say you wrote something engaging and then one of those guys, a big authority or Navall or Elong or whatever, engaged with your post, put something smart, commented something amazing. Then you have authority by proxy, and that's instantly right.\n\nA lot of the social strategies I'm trying to engineer with bots revolve around this mechanism - how do I build authority in this way as fast as possible without requiring inputs from receivers. This is the method I came up with so far, and it's only to flesh it out. Does that make sense? Yeah, still building this need to think about specific implementations. Basically, that's it. Okay.",
+  "assumptions": [
+    "Classified as bundle because it combines: problem diagnosis (traditional methods blocked), mechanism identification (pre-selection), and application (social media authority by proxy)",
+    "Priority 75 reflects practical urgency (last contractor standing, tight deadlines)",
+    "The pickup game example (walking into club with hot girls) is treated as analogical evidence, not core principle",
+    "Assumes audience respects the endorsing authority figure; fails if they don't"
+  ]
+}

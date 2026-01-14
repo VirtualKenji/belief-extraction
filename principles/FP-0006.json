@@ -1,0 +1,106 @@
+{
+  "id": "FP-0006",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Time value equals opportunity cost determined by skill count",
+  "canonical_slug": "time-value-equals-opportunity-cost-from-skills",
+  "aliases": ["skill-based time scarcity", "opportunity cost of time"],
+  "definition": "Time is universal but its value is not. The value of an hour equals the opportunity cost of what you could productively do in that hour. More skills create more productive options per hour, which increases opportunity cost, which makes time feel more scarce and valuable. Someone with no skills to fill time productively has low opportunity cost and therefore low time value.",
+  "core_claim": "If you acquire more skills, then each hour of time becomes more valuable to you, because more skills create more productive options per hour, increasing opportunity cost. Someone 'just waiting' has low time value because they have nothing productive to fill those hours with.",
+  "idea_origin": {
+    "event_summary": "Previously didn't understand why code J valued his time so much and seemed like 'such a dick' about it. Alina said 'he likes you, he spends time with you' and speaker thought 'that's the minimum amount of importance you could give someone.'",
+    "trigger": "Realizing that with more skills, two hours of playing video games or talking to friends now represents real opportunity cost—could be learning to trade, building bots, improving content systems. This wasn't true before having those skills.",
+    "lesson_learned": "Time is universal but doesn't cost the same to everybody. The difference is the opportunity cost that unit of time takes away from them, which is determined by the skills they have to fill it productively."
+  },
+  "canonical_instruction": "Identify the user's current skill count and list what productive activities they could do in a given time block. Compare this to someone with fewer skills who would have fewer options. Calculate the implicit opportunity cost difference. Show that more skills = more options = higher opportunity cost = time feels more scarce. If user has low skill count, note that acquiring skills will automatically increase their time value.",
+  "applicability": {
+    "domains": ["productivity", "time management", "skill development", "career"],
+    "audiences": ["people wondering why successful people guard their time", "people who feel time-rich but skill-poor", "generalists building multiple skills"],
+    "situations": ["deciding whether to spend time on leisure vs skill-building", "understanding why someone values their time more than you do", "justifying investment in learning new skills"],
+    "exclusions": ["situations where rest/leisure is the productive choice", "contexts where skill count is fixed (e.g., highly specialized roles)"]
+  },
+  "transformation_rules": [
+    "List the user's current skills that could productively fill time",
+    "For each hour in question, list 2-3 productive alternatives they're giving up",
+    "Compare to someone with fewer skills (what would they be doing? 'just waiting')",
+    "Name the opportunity cost explicitly in terms of outcomes (money, learning, progress)",
+    "Show that acquiring more skills will automatically increase future time value"
+  ],
+  "tests": [
+    "Output lists specific skills and specific productive alternatives (not vague 'could be productive')",
+    "Output includes a contrast between high-skill and low-skill time value",
+    "Output mentions opportunity cost explicitly",
+    "No generic 'time is valuable' advice without naming the mechanism (skill count)",
+    "Output references concrete examples like learning trading, building bots, or similar skill-specific activities"
+  ],
+  "counterexamples": [
+    "Situations where rest genuinely is the highest-value use of time (recovery, avoiding burnout)",
+    "People who have maximized skill count in their domain and need depth not breadth",
+    "Contexts where time value is externally set (hourly wage with no alternatives)"
+  ],
+  "input_triggers": [
+    "wondering why successful people guard their time",
+    "feeling like you have 'too much time' and nothing to do",
+    "friend who is 'just waiting' instead of being proactive",
+    "not understanding why someone else values their time more than you",
+    "two hours feels like nothing to you but everything to someone else",
+    "deciding between leisure and skill-building",
+    "realizing you could be doing X, Y, or Z right now instead"
+  ],
+  "output_format_targets": ["self-reflection", "coaching", "productivity advice", "essay"],
+  "related": [
+    {
+      "id": "FP-0003",
+      "relation": "bundles_with",
+      "note": "Skill transference increases skill count, which increases time value via this principle"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0006a",
+      "name": "Time is universal but value is not",
+      "role": "premise",
+      "pole": "",
+      "applies_when": "Comparing time value across people with different skill levels"
+    },
+    {
+      "id": "FP-0006b",
+      "name": "Skills create productive options to fill time",
+      "role": "mechanism",
+      "pole": "",
+      "applies_when": "User has skills that could productively fill a given time block"
+    },
+    {
+      "id": "FP-0006c",
+      "name": "Opportunity cost determines subjective time value",
+      "role": "core",
+      "pole": "",
+      "applies_when": "Calculating what is given up by spending time on activity X instead of Y"
+    },
+    {
+      "id": "FP-0006d",
+      "name": "Low skill count means 'just waiting' with no opportunity cost",
+      "role": "contrast",
+      "pole": "",
+      "applies_when": "Someone has few skills and therefore few productive alternatives (like Joey waiting for interview)"
+    }
+  ],
+  "effect_fingerprint": "list_skills->enumerate_alternatives->calculate_opportunity_cost->compare_across_skill_levels",
+  "priority": 70,
+  "specificity": 50,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-14T00:00:00+08:00",
+  "updated_at": "2026-01-14T00:00:00+08:00",
+  "source_transcript": "Okay this one could be a little interesting. Um so it's it could be two topics but they're related right is a is why time is becoming more scarce as a resource like why am I valuing my time more now versus before and the other one is um the tentatively thinking like why it's sort of good to have your back against the wall like they're sort of related or not right and something like again code j right like i didn't understand why time was such a big deal to him like he'd always like remember we basically his communication sucked he'd be such a dick and then elene i'd be like why is he such a dick to alina like not that way right lena was like oh he likes you he spends time with you and i'm like huh like well what like okay like that's the minimum amount of importance you could ever give someone like why the hell like you know isn't our time equal like i don't i don't care i spent time with like this was a few years ago right and now it's like i totally get it uh i totally totally totally get it and the reason why i totally get it is i'm realizing that i have more skills now and i could actually build more things with my per unit of time and so if i give up two hours just doing something right playing video games talking my friend that is two hours of very important opportunity cost i'm building up i'm giving up right essentially what could i be doing in those two hours i could be like right now i could be learning how to trade i could be doing this i could be building my bots i could be improving my content systems right and essentially like those hours like eventually translate into money and this would not be true for me if i didn't have the skills to occupy those hours so i think that's a big difference between uh where I currently am right now my where my friends are at right it's like um what like I'm asking Joey what uh he's waiting to get accepted to his remote closing job and he's waiting for an interview but I'm like yeah what could you be doing in the meantime to to up your chances he's like I don't know I'm just waiting I'm just waiting I'm just waiting and in my head I'm like bro you could apply you could actually go to like these fake you could pretend to be a client like you you could get on calls pretending to be cut like there's so many other things you could do aside from just waiting right and that's something I realized is like the more skill skilled skill I become like the more I stepped out of my niche the more I realized that there's so much useful stuff I could fill in with my time like blank space like skills I could learn skills that could help me scale and again this is related to skill transference and being a generalist. If I was just a rider, I would not be thinking this way like there's no reason for me to be thinking about you know how they get amazing at riding every two hours it just doesn't cost the same thing right but again what I'm trying to say is that time is a unit that is universal to everyone but it doesn't cost the same to everybody and it's definitely not worth the same for everybody right and what makes time more valuable for one person versus another is the opportunity cost that that unit of time actually takes away from them. Pretty simple. Anything else yeah it's a very it's a I think it's a very complete thought. Okay and then next I'll do the gun to my head thing. Yeah I mean nothing that here right yeah makes sense it's very complete.",
+  "assumptions": [
+    "Classified as bundle because it combines: premise (time is universal), mechanism (skills create options), and outcome (opportunity cost determines value)",
+    "The Joey example ('just waiting') is preserved as the key contrast to high-skill time value",
+    "Related to skill transference and generalist principles as explicitly stated in transcript",
+    "Priority 70 reflects personal realization with clear before/after contrast (didn't get it vs totally get it now)"
+  ]
+}
