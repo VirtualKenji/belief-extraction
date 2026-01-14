@@ -1,0 +1,105 @@
+{
+  "id": "FP-0003",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "AI forces explicit thinking that humans skip",
+  "canonical_slug": "ai-forces-explicit-thinking-humans-skip",
+  "aliases": [],
+  "definition": "AI cannot read implicit context the way humans do—it requires explicit inputs, rationale, objectives, and preferred outputs. This limitation forces clearer thinking because you must articulate what you actually want rather than relying on others to infer it.",
+  "core_claim": "If you must explain your thinking explicitly to AI, then you think more clearly because the process of articulation surfaces assumptions, gaps, and if-then logic that implicit human communication lets you skip.",
+  "idea_origin": {
+    "event_summary": "Noticed that working with AI required much more granular specification than talking to humans. Had to provide context, rationale, objectives, and preferred output format—things humans infer automatically.",
+    "trigger": "Realizing that AI cannot detect what someone is triggered by, their belief hierarchy, or dominant worldview—things humans read effortlessly from body language, tone, and patterns.",
+    "lesson_learned": "AI's inability to read implicit signals is actually a feature. It forces if-then thinking and explicit articulation that makes thinking sharper."
+  },
+  "canonical_instruction": "Identify where the writer is relying on implicit understanding or unstated assumptions. Force them to articulate: What is the actual input? What is the desired output? What is the rationale? What context is missing? Reframe the AI limitation as a thinking upgrade—explicit articulation beats implicit assumption.",
+  "applicability": {
+    "domains": ["AI usage", "communication", "thinking", "writing", "self-improvement"],
+    "audiences": ["AI users", "knowledge workers", "writers", "anyone building systems"],
+    "situations": ["when prompts aren't working", "when thinking feels fuzzy", "when relying on others to 'just get it'", "when building AI workflows"],
+    "exclusions": ["purely emotional contexts where explicit framing would harm", "creative brainstorming where constraints are premature"]
+  },
+  "transformation_rules": [
+    "Identify implicit assumptions the writer is making",
+    "Convert implicit expectations into explicit specifications",
+    "Add rationale, objectives, and preferred output format",
+    "Reframe AI's context-blindness as a forcing function for clarity",
+    "Show how explicit articulation surfaces hidden gaps in logic",
+    "Introduce if-then structures where vague language exists"
+  ],
+  "tests": [
+    "Output makes at least one implicit assumption explicit",
+    "Output includes rationale or objective statement",
+    "Output contains if-then or input-output structure",
+    "No reliance on reader 'just getting it'",
+    "Writer can identify one assumption they were making unconsciously",
+    "Output could be understood by AI with no additional context"
+  ],
+  "counterexamples": [
+    "Emotional support contexts where over-articulation feels cold",
+    "Early brainstorming where premature specification kills creativity",
+    "High-trust relationships where explicit framing signals distrust"
+  ],
+  "input_triggers": [
+    "AI keeps giving wrong answers",
+    "feeling frustrated that AI doesn't 'get it'",
+    "prompts aren't working",
+    "thinking feels fuzzy or jumbled",
+    "relying on implicit understanding",
+    "building AI workflows or systems"
+  ],
+  "output_format_targets": ["essay", "prompt engineering", "self-reflection", "system design"],
+  "related": [
+    {
+      "id": "FP-????",
+      "relation": "overlaps",
+      "note": "Related to second brain / externalized thinking principles"
+    },
+    {
+      "id": "FP-????",
+      "relation": "overlaps",
+      "note": "Related to belief extraction and pattern recognition"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0003a",
+      "name": "AI requires explicit context humans infer",
+      "role": "core",
+      "pole": "",
+      "applies_when": ""
+    },
+    {
+      "id": "FP-0003b",
+      "name": "Articulation surfaces hidden assumptions",
+      "role": "core",
+      "pole": "",
+      "applies_when": ""
+    },
+    {
+      "id": "FP-0003c",
+      "name": "Limitation becomes forcing function",
+      "role": "supporting",
+      "pole": "",
+      "applies_when": ""
+    }
+  ],
+  "effect_fingerprint": "concretize->add_constraints->sharpen_claim->simplify_structure",
+  "priority": 85,
+  "specificity": 45,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-14T00:00:00+08:00",
+  "updated_at": "2026-01-14T00:00:00+08:00",
+  "source_transcript": "Okay, why AI makes smarter. I think part of the reason I could speak for myself is that AI makes me smarter is that it doesn't like it forces me to really think about inputs and outputs, but explicitly think about inputs and outputs.\n\nWhat I mean is that I think that AI is essentially probabilistic, that means you can ask it the same question multiple times; they'll always give you different answers or slightly different answers. That's not the same with people. If you ask them usually the same questions, they'll give you answers that highly overlap. Why is that? Is because people have context. They understand subtext. They know what you're trying to ask without you having to openly and explicitly ask that. AI is not like that at all. Not only do you need to explicitly ask it what you need to ask it, but you need this mountain of context for it to even make sense. It needs to know your rationale, and it needs to know your objectives and it needs to know all this and needs to know your preferred output for it to give you a good answer.\n\nRight, and I feel like in human communication, all those things are implicit. Most people know when you want a short answer or a long answer. Most people know when you want your ego stroked or when you want to get wrecked. Most people know when you want honest feedback. Most people know if you're fishing for compliments vs not. Most people can read the room, and AI can't do that as well. As a result of that, I feel like I have to be much more granular with my thinking.\n\nAs an example, it's really easy for me from a few minutes of talking to someone to know what they care about, to know what their most important belief systems are. What are they triggered by? That's actually something that it's easy for me to figure out. What is important because I could see what someone's triggered by. I could see what they think about a lot. I could see all that.\n\nI'm yet to create an AI belief engine that could do the same thing. How would AI know what somebody is triggered by? How would it know that the person doesn't talk extensively? How would they know that I don't know? How would AI know a person's dominant worldview? How would they know their belief hierarchy? I don't know. These are things I need to solve for. These are things I need to be really explicit for. But the fact of the matter is, it is really easy to figure this out between people. It is super easy.\n\nWhen people get pissed, when people get excited, what do they tend to keep going back to the most? What are their mental models like? It's very easy. I'll give an example. It's very easy to know what a girl looks for in a partner from talking to her. You don't need her to say it directly. Essentially, right? Does she care about money? Does she care about looks? Does she care about fame? Does she care about social value? Does she care about the emotional connection? Does she care about something else?\n\nRight, and I think the problem is no girl will ever tell you these things in that format explicitly, and the AI will never pick up on that unless it's that explicit. So I need to create different methods for how to screen for beliefs using AI, and as a result of that, I'm forced to think out of the box and I'm forced to think using more if-then models. That's one thing.\n\n[Second speaker discussion about AI building a second brain, pattern recognition, identity development, and retrieval capabilities - summarized]",
+  "assumptions": [
+    "Focused on the primary speaker's core insight about explicit vs implicit thinking",
+    "The second speaker's discussion about 'second brain' and identity development treated as supporting context, not the core principle",
+    "Priority 85 reflects speaker's conviction and direct personal experience",
+    "Classified as bundle due to multiple atomic components (context requirement, articulation benefit, limitation-as-feature)"
+  ]
+}

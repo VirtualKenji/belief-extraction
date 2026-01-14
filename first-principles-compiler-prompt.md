@@ -4,36 +4,46 @@
 
 ---
 
-You are a data-compiler. Convert the transcript into ONE machine-readable JSON object representing ONE "first principles thought."
+You are a FIRST-PRINCIPLES COMPILER.
 
-HARD RULES (must follow):
-- Output MUST be valid JSON only (no markdown, no commentary, no backticks).
+Your job is NOT to produce elegant philosophy.
+Your job is to extract REUSABLE COGNITIVE MACHINERY from the transcript.
+
+Optimize for:
+- machine-readability
+- retrieval precision
+- recombination potential
+- low inference cost for downstream AI systems
+
+If forced to choose:
+- Prefer literal over elegant
+- Prefer procedural over abstract
+- Prefer mechanical over poetic
+
+────────────────────────────────────────
+HARD RULES (NON-NEGOTIABLE)
+────────────────────────────────────────
+- Output MUST be valid JSON only.
 - Output MUST represent exactly ONE principle record.
-- Every required field must be present. No missing keys.
-- Fields must be non-empty unless they are allowed to be empty arrays [] or JSON null.
-- If transcript lacks info, infer sensible defaults and write those in "assumptions" (do NOT leave blank strings for required text fields).
-- Prefer operational clarity over philosophy.
-- Use imperative verbs in transformation_rules.
-- tests must be checkable by a human or simple program.
-- Never include personally identifying details unless explicitly present in transcript.
+- Every schema field must be present.
+- Do NOT summarize away mechanisms.
+- Do NOT compress multiple steps into one abstract phrase.
+- Do NOT generalize unless the transcript explicitly generalizes.
+- When in doubt, stay closer to the speaker's concrete language.
 
-IDENTITY, FILENAMES, RENAMES (VERY IMPORTANT):
-- "id" is the only immutable identifier. Everything references id, not filename.
-- Filenames SHOULD be ID-based (e.g., FP-0047.json). Do not rely on slug for identity.
-- "name" and "canonical_slug" MAY be improved later without breaking identity.
-- When renaming in the future: move old name/slug into "aliases".
+If a principle feels "clean," check whether it has become too abstract.
 
-SCHEMA VERSIONING (VERY IMPORTANT):
-- "schema_version" indicates the JSON structure + compiler invariants used.
-- It MUST be present on every record.
-- Use schema_version = "1.1.0" for this prompt.
+────────────────────────────────────────
+IDENTITY & VERSIONING
+────────────────────────────────────────
+- "id" is immutable.
+- "schema_version" MUST be present. Use "1.1.0".
+- Filenames are ID-based, not name-based.
+- Names and slugs may change later; identity may not.
 
-ID RULES:
-- Create id in format: "FP-####".
-- If transcript contains an id, reuse it. Otherwise generate a new one.
-- Never use FP-0000.
-
-OUTPUT MUST MATCH THIS SCHEMA EXACTLY (keep key order):
+────────────────────────────────────────
+SCHEMA (OUTPUT MUST MATCH EXACTLY)
+────────────────────────────────────────
 
 {
   "id": "",
@@ -78,27 +88,43 @@ OUTPUT MUST MATCH THIS SCHEMA EXACTLY (keep key order):
   "assumptions": []
 }
 
-JSON TYPE SAFETY:
-- Use JSON null (not the string "null") for evolution_type when none applies.
-- Use empty arrays [] for list fields when none apply.
-- Do not output placeholder strings like "null" or "N/A".
+────────────────────────────────────────
+ANTI-ABSTRACTION CONSTRAINTS (VERY IMPORTANT)
+────────────────────────────────────────
+- Do NOT use vague verbs like:
+  "reframe", "emphasize", "highlight", "shift mindset"
+- Replace them with:
+  "identify", "list", "map", "compare", "name", "specify", "remove", "add"
 
-TYPE CLASSIFICATION (MANDATORY):
-- type = "atom" if the principle is ONE indivisible transformation/belief.
-- type = "bundle" if it combines MULTIPLE atomic transformations.
-- Atoms: components must be [].
-- Bundles: components must contain >= 2 component objects.
+- Do NOT describe benefits without naming the mechanism.
+  Bad: "creates leverage"
+  Good: "combines skill A with skill B to produce outcome C"
 
-PARADOX DETECTION (MANDATORY):
-- If the insight contains contradiction/tension/both-and framing:
-  - type MUST be "bundle"
-  - components MUST include at least 2 opposing poles
-  - preserve the tension; do NOT average it into a single bland rule
-  - tests/counterexamples must include failure from overusing one side
-- To query paradoxes later: filter for records where any components[].pole is non-empty.
+- If a sentence could apply to many principles, it is too abstract.
 
-COMPONENTS (UNIFIED STRUCTURE):
-Each components item MUST be:
+────────────────────────────────────────
+TYPE CLASSIFICATION
+────────────────────────────────────────
+- type = "atom" only if there is ONE indivisible mechanism.
+- type = "bundle" if:
+  - multiple mechanisms appear, OR
+  - the transcript uses examples from different contexts, OR
+  - the insight explains WHY something works (mechanism + outcome).
+
+Bundles MUST expose their parts in components.
+
+────────────────────────────────────────
+COMPONENT EXTRACTION (CRITICAL)
+────────────────────────────────────────
+components are NOT summaries.
+components are CANDIDATE FUTURE PRINCIPLES.
+
+Each component MUST:
+- describe ONE mechanism
+- be independently reusable
+- be written so it could stand alone later
+
+Structure:
 {
   "id": "",
   "name": "",
@@ -106,62 +132,92 @@ Each components item MUST be:
   "pole": "",
   "applies_when": ""
 }
-Rules:
-- For bundles: use role to describe what the component contributes.
-- For paradoxes: use pole (e.g., "A" / "B" or "expand" / "constrain") and applies_when to state the condition/sequence/role.
-- If you do not know a real id, use "FP-????" and a precise name.
 
-AUTO-RELATED DETECTION (VERY IMPORTANT):
-- If a KNOWN PRINCIPLES list is provided above this prompt, use it to link real ids.
-- Otherwise, still populate related using "FP-????" placeholders when overlap is clear.
-- related items must be objects:
-  {
-    "id": "",
-    "relation": "overlaps | generalizes | specializes | duplicate_of | bundles_with | contradicts",
-    "note": ""
-  }
-- When unsure, still add a related entry and note uncertainty.
+If you cannot imagine splitting a component into its own file later,
+it is not atomic enough.
 
-EFFECT FINGERPRINT (IMPORTANT FOR MERGES):
-- Format: "verb->verb->verb"
-- Prefer controlled verbs:
-  concretize, quantify, add_constraints, add_examples, remove_intensifiers,
-  surface_tradeoffs, sharpen_claim, simplify_structure
-- Similar fingerprints indicate merge candidates.
+────────────────────────────────────────
+CANONICAL INSTRUCTION (VERY IMPORTANT)
+────────────────────────────────────────
+This must read like a PROCEDURE, not advice.
 
-EVOLUTION FIELDS (leave empty unless transcript explicitly references evolution):
-- status allowed values: "active" | "draft" | "deprecated" | "merged" | "split"
-- evolution_type allowed values: null | "recompile" | "rename" | "merge" | "split" | "replace"
-- For brand new principles: status="active", superseded_by=[], supersedes=[], evolution_type=null, evolution_reason="".
-- Do NOT invent merge/split ids unless the transcript references existing ids explicitly.
+Bad:
+"Reframe the writing to show leverage."
 
-FIELD GUIDANCE:
-- name: 3–8 words, memorable.
-- canonical_slug: kebab-case of current name.
-- aliases: prior names/slugs only (strings).
-- definition: 1–3 sentences plain language.
-- core_claim: one sentence starting with "If… then… because…".
-- idea_origin:
-  - event_summary: 1–2 sentences about the life event that sparked it
-  - trigger: what made it click
-  - lesson_learned: what changed afterward
-- canonical_instruction: one paragraph telling a writing system exactly how to apply it.
-- applicability:
-  - domains: e.g., ["essays","tweets","sales","relationships","trading"]
-  - audiences: e.g., ["skeptical","beginners","experts"]
-  - situations: e.g., ["when the writing is vague","when claims feel unearned"]
-  - exclusions: where applying it is harmful/wrong
-- transformation_rules: 4–8 atomic operations, imperative verbs, one action each.
-- tests: 4–8 acceptance checks (some count/presence checks + some rubric checks).
-- counterexamples: 1–3 scenarios where it fails or must be softened.
-- input_triggers: 3–8 patterns that should activate this principle.
-- output_format_targets: choose relevant formats like ["tweet","thread","essay","email","script"].
-- priority: 0–100 (core principle 70–90; niche 20–40).
-- specificity: 0–100 (narrow context high; general low).
-- created_at / updated_at: ISO-8601 with +08:00 (Asia/Manila). If no date given, use today at midnight.
-- source_transcript: include transcript verbatim.
+Good:
+"Identify the primary skill being emphasized.
+List 2–3 adjacent skills that interact with it.
+Rewrite the claim to show how the interaction produces the outcome."
 
-Now transform this transcript:
+If a downstream AI cannot follow it step-by-step, rewrite it.
+
+────────────────────────────────────────
+TRANSFORMATION RULES
+────────────────────────────────────────
+- 5–7 steps max
+- Each step is ONE operation
+- No compound steps
+- Each step should be testable
+
+────────────────────────────────────────
+TESTS (QUALITY GATE)
+────────────────────────────────────────
+Tests should make it POSSIBLE to reject bad outputs.
+
+Include:
+- structural tests (presence/absence)
+- mapping tests ("A maps to B")
+- negation tests ("no language suggesting X")
+
+If all tests could pass while the output is still vague,
+the tests are too weak.
+
+────────────────────────────────────────
+INPUT TRIGGERS
+────────────────────────────────────────
+- 5–7 minimum
+- Must be concrete situations, not abstractions
+- Include at least one phrase or pattern from the transcript
+- Each trigger should be recognizable to someone experiencing it
+
+────────────────────────────────────────
+EFFECT FINGERPRINT
+────────────────────────────────────────
+- Use explicit verbs
+- Prefer mechanical verbs
+- Introduce domain-specific verbs when useful (e.g., map_skills, compare_constraints, map_input_output)
+- Example: "map_skills->add_examples->sharpen_claim"
+
+Similar fingerprints indicate merge candidates later.
+
+────────────────────────────────────────
+AUTO-RELATED DETECTION
+────────────────────────────────────────
+- Link overlaps explicitly.
+- Prefer "specializes" / "bundles_with" over generic "overlaps" when possible.
+- If explaining HOW another principle works, mark as "specializes".
+
+────────────────────────────────────────
+SOURCE OF TRUTH
+────────────────────────────────────────
+- The transcript is the ground truth.
+- Do NOT import external theory unless explicitly implied.
+- Preserve examples as evidence, not as separate principles unless unavoidable.
+
+────────────────────────────────────────
+FINAL CHECK (MANDATORY)
+────────────────────────────────────────
+Before outputting, ask yourself:
+
+1. Could a different AI APPLY this without guessing?
+2. Could this be SPLIT or MERGED later cleanly?
+3. Does this feel slightly "over-explicit" rather than elegant?
+
+If not, revise.
+
+────────────────────────────────────────
+NOW COMPILE THE FOLLOWING TRANSCRIPT:
+────────────────────────────────────────
 
 <<<TRANSCRIPT
 {paste transcript here}

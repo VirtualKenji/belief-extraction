@@ -1,0 +1,112 @@
+{
+  "id": "FP-0004",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Online businesses multiply inputs into outputs",
+  "canonical_slug": "online-businesses-multiply-inputs-into-outputs",
+  "aliases": [],
+  "definition": "Online businesses break the physical constraint where one input equals one output. A single idea can become a tweet, newsletter, blog post, and video—multiplying value without additional material cost. Physical businesses are capped by inventory, iteration speed, and the economics of scarcity.",
+  "core_claim": "If you build online instead of physical, then you can multiply one input into many outputs because digital has near-zero iteration cost, instant feedback, and no inventory constraints—while physical businesses are capped by materials, space, and the devaluation of mass production.",
+  "idea_origin": {
+    "event_summary": "Ran a physical creative business (photography, art, furniture) that failed during COVID when brick-and-mortar closed. Made chairs that didn't sell. Realized the creative industry has unpredictable seasons and no reliable metrics.",
+    "trigger": "Comparing chair-making (one slab = 2-3 chairs, never 10) to online content (one idea = tweet + newsletter + blog + video + repurposed infinitely).",
+    "lesson_learned": "Physical businesses are glorified gambling on unpredictable style trends. Online businesses have instant feedback, near-zero iteration cost, and one input can become unlimited outputs."
+  },
+  "canonical_instruction": "Identify if the writer is building something with physical constraints (inventory, iteration cost, material limits). Reframe toward online/digital equivalents where possible. Emphasize: instant feedback loops, zero iteration cost, one input to many outputs, margins not capped by materials. Show how quantity online creates virality, not devaluation.",
+  "applicability": {
+    "domains": ["business", "entrepreneurship", "career", "creative work", "content"],
+    "audiences": ["freelancers", "creators", "founders", "people in physical industries"],
+    "situations": ["considering business models", "stuck in slow iteration cycles", "high inventory costs", "unpredictable income"],
+    "exclusions": ["businesses where physical presence is the value (restaurants, experiences)", "regulated industries requiring physical infrastructure"]
+  },
+  "transformation_rules": [
+    "Identify physical constraints in the current model (inventory, iteration speed, materials)",
+    "Show the online equivalent that removes those constraints",
+    "Emphasize one input → many outputs multiplication",
+    "Contrast instant feedback (algorithms, stats) vs slow physical feedback",
+    "Highlight margin differences (97% digital vs 2-3x physical)",
+    "Reframe quantity as virality potential, not devaluation"
+  ],
+  "tests": [
+    "Output identifies at least one physical constraint being removed",
+    "Output shows how one input becomes multiple outputs",
+    "Output mentions feedback speed or iteration cost",
+    "No romanticizing of physical business constraints",
+    "Reader can identify one way to digitize or multiply their current work",
+    "Output addresses margin or scalability difference"
+  ],
+  "counterexamples": [
+    "Businesses where scarcity IS the value (fine art, luxury goods, one-of-a-kind experiences)",
+    "Services requiring physical presence (healthcare, construction, hospitality)",
+    "Industries with regulatory barriers to digital (finance, legal in some jurisdictions)"
+  ],
+  "input_triggers": [
+    "slow iteration in current business",
+    "high inventory or upfront costs",
+    "unpredictable creative industry income",
+    "feeling capped by physical constraints",
+    "one input = one output frustration",
+    "considering online vs physical business"
+  ],
+  "output_format_targets": ["essay", "business advice", "tweet", "thread", "coaching"],
+  "related": [
+    {
+      "id": "FP-0001",
+      "relation": "overlaps",
+      "note": "Both emphasize leverage and breaking income ceilings"
+    },
+    {
+      "id": "FP-????",
+      "relation": "overlaps",
+      "note": "Related to scalability and leverage principles"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0004a",
+      "name": "Physical businesses have capped input-output ratios",
+      "role": "core",
+      "pole": "",
+      "applies_when": ""
+    },
+    {
+      "id": "FP-0004b",
+      "name": "Online multiplies one input into many outputs",
+      "role": "core",
+      "pole": "",
+      "applies_when": ""
+    },
+    {
+      "id": "FP-0004c",
+      "name": "Digital iteration is instant and free",
+      "role": "supporting",
+      "pole": "",
+      "applies_when": ""
+    },
+    {
+      "id": "FP-0004d",
+      "name": "Online quantity creates virality not devaluation",
+      "role": "supporting",
+      "pole": "",
+      "applies_when": ""
+    }
+  ],
+  "effect_fingerprint": "surface_tradeoffs->add_constraints->add_examples->sharpen_claim",
+  "priority": 85,
+  "specificity": 35,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-14T00:00:00+08:00",
+  "updated_at": "2026-01-14T00:00:00+08:00",
+  "source_transcript": "hello. OK, why online businesses are better. Most of my life, I wanted to be a photographer. My life goal was to be the best photographer. I love taking photos and something I didn't realize about the creative industry is that no matter how good you are, you have seasons and it's not entirely up to you as to why you have this season.\n\nSo what that means is that whether you're a photographer or a singer or an artist, there are levers you could pull but sometimes your style just isn't in fashion. Sometimes you're too ahead of the curve, or your style could look dated or what you view as your best style just doesn't sell commercially. All of those were the case for me, and what I didn't realize at the time is that I was trying to create a lifestyle for myself by betting on unpredictable things. The problem with that is that it's sort of like glorified gambling - essentially. I'm betting that my style will be well-received, and the problem with creative industries is that it's not a reliable way to make a living.\n\nThe problem with creative industries is that there aren't actually real metrics that you could track for success. Like, how do you quantify the value of a painting or the value of a photograph? You could say it's distribution, it's a brand, but that's a little too iffy for me.\n\nSo I realized that actually I didn't realize this on my own. I lost my business and became really broke and was forced to realize this. I did not realize this on my own at all.\n\nSo what happened during COVID was we had a business break by break. We were creating art and hotels closed and brick and mortar clothes. Right? And what I realized was that this was one of the first disadvantages to legacy physical businesses is that an event could happen where everything closes that is highly unlikely to happen with the Internet. I mean, the Internet could go up, but that's very, very, very highly unlikely to happen. And so that's one of the first things where I'm like, OK, that sucks. An entire industry is wiped out. I can't do that. Right?\n\nSecond thing is inventory. And there's always a cost experimentation and some like while we were in brick by brick we wanted to sell these chairs and to sell the chairs we needed to make the chairs and then we needed to pay for the chairs beforehand and we needed to have enough to make sure that we could ship. And then we needed to actually take pictures of the chairs in the end. We sold no chairs just mom bought it and I think that's the problem with physical industries is it is possible to come up with MVPs in prototyping but more often than not physical industries require some sort of physical prototyping. They require space to store prototypes. They require overhead. They require staff up from money and iteration moves extremely slow because to get feedback on the thing it has to be built. Imagine right like I build a chair. It sucks but I won't know until it's built and I build another one then it sucks and I won't know until it's built I build another one. That is horrible for growing fast. Essentially it's great for buying time and it's great for planning but it's horrible for growing fast. And when it comes to online businesses the feedback is almost instant. The algorithm will tell you if what you did was amazing or shit. Your stats don't lie. You're getting click through rates don't lie your CPAs don't lie your impressions can be boosted but they don't lie and what this forces someone to do when they're creating an online business is they have to be on their toes they have to be good and most importantly the cost of iteration is 0 the cost of shipping is near zero and the best part is that the margins are almost infinite. Physical businesses are capped by margins 2x 3x whatever it is. For an online business specifically the margin could be extremely high it could be like 97% or something assuming you actually put a lot of value in. Hmm think it could be better.\n\nAnd I think the most important thing about online businesses is that it allows you to fail fast and fail at no cost aside from ego. You scale faster, you fail faster, there's no cost to experimentation, and the most important thing for me personally is that one input doesn't equal one output. That's how it is in the real life - one slab of wood equals two or three chairs, and one slab of wood will never equal ten chairs. That's just what it is, and that's not the case at all for online businesses. One idea can be a tweet, one idea can be in that same idea could be a newsletter, could be a blog post, could be a YouTube video, it could be repurposed a million different times with different hooks. One idea could be 10 or 20 inputs, and that's the beauty of scaling online - one input is as many outputs as you're able to do, and you're not physically constrained. All of these inputs, all of these outputs rather equal more income streams, and that is not the case for anything physical.\n\nThe problem with doing the same thing physically is that if there's a thousand copies of the same painting, it becomes cheap because it's not rare, it's a thousand copies. But if there's a thousand different versions of your article online and some of them get traction, it becomes viral. So it's completely reversed. You're not necessarily punished for quantity online. All that matters is something becomes viral. But in the real world, in IRL, scaling just doesn't work the same way. Because if one input becomes many outputs, then it's for the masses, then it's mass-produced, and that premium is no longer there. But that's not the case at all for online businesses.\n\nSo again, one input online equals many outputs online, not constrained by economics of scale. Each other. Okay, good enough.",
+  "assumptions": [
+    "Classified as bundle due to multiple distinct atomic insights (input-output ratio, iteration speed, margin differences, quantity-value reversal)",
+    "Priority 85 reflects strong personal proof (lost business, went broke, forced to learn)",
+    "The photography/creative industry context is treated as origin story, not the core principle",
+    "Linked to FP-0001 due to shared theme of breaking income/leverage ceilings"
+  ]
+}

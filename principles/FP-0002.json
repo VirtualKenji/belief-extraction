@@ -1,0 +1,105 @@
+{
+  "id": "FP-0002",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Skills transfer and compound across domains",
+  "canonical_slug": "skills-transfer-and-compound-across-domains",
+  "aliases": [],
+  "definition": "Skills developed in one domain transfer to adjacent domains, creating compound learning effects. As you accumulate expertise across multiple areas, you learn faster—not slower—because each new domain benefits from patterns already mastered elsewhere.",
+  "core_claim": "If you develop expertise across multiple domains, then you learn faster over time because skills transfer between domains and compound, making each new skill easier to acquire than the last.",
+  "idea_origin": {
+    "event_summary": "Noticed that learning was accelerating with age rather than slowing down. Realized this was because expertise in writing, marketing, and relationships all intersected and reinforced each other.",
+    "trigger": "Friend Joey asked why he sounds stupid talking to attractive women while the speaker doesn't—realized relationship skills (boundaries, compliance, not overinvesting) transferred directly to social situations without conscious effort.",
+    "lesson_learned": "Skill transference is the mechanism behind generalist advantage. Every successful person admired is good at multiple domains, not just one."
+  },
+  "canonical_instruction": "Identify the skills the writer has developed in their primary domain. Then show how those same skills apply to an adjacent domain they're struggling with or curious about. Make the transfer explicit by naming the underlying pattern that crosses both domains. Emphasize that learning compounds—each new domain gets easier, not harder.",
+  "applicability": {
+    "domains": ["career", "learning", "relationships", "business", "personal development"],
+    "audiences": ["specialists wanting to expand", "people feeling stuck", "founders", "generalists seeking validation"],
+    "situations": ["when entering a new field", "when skills feel siloed", "when learning feels slow", "when comparing to successful people"],
+    "exclusions": ["domains requiring completely novel motor skills", "highly technical certifications with no pattern overlap"]
+  },
+  "transformation_rules": [
+    "Identify the writer's existing domain expertise",
+    "Name the transferable meta-skills within that expertise",
+    "Map those meta-skills to the new domain they want to enter",
+    "Show how the transfer accelerates learning rather than starting from zero",
+    "Add an example of a successful person who demonstrates multi-domain competence",
+    "Reframe 'learning something new' as 'applying existing patterns to new context'"
+  ],
+  "tests": [
+    "Output names at least 2 transferable skills explicitly",
+    "Output shows how Domain A skills apply to Domain B",
+    "Output reframes learning as compounding, not linear",
+    "No language suggesting you 'start from scratch' in new domains",
+    "Reader can identify one skill they already have that transfers elsewhere",
+    "At least one concrete example of successful multi-domain person"
+  ],
+  "counterexamples": [
+    "Completely novel physical skills (surgery, playing violin) where motor learning doesn't transfer",
+    "Early career when no foundational expertise exists yet to transfer from",
+    "Domains so unrelated that pattern matching creates false confidence"
+  ],
+  "input_triggers": [
+    "feeling like a beginner again",
+    "learning feels slow",
+    "skills feel trapped in one domain",
+    "wondering how successful people know so much",
+    "entering a new field",
+    "comparing learning speed to younger self"
+  ],
+  "output_format_targets": ["essay", "tweet", "thread", "coaching", "self-reflection"],
+  "related": [
+    {
+      "id": "FP-0001",
+      "relation": "specializes",
+      "note": "FP-0001 says generalists earn more; this explains the MECHANISM—skill transference"
+    },
+    {
+      "id": "FP-????",
+      "relation": "overlaps",
+      "note": "Related to compound learning and meta-learning principles"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0002a",
+      "name": "Skills have transferable meta-patterns",
+      "role": "core",
+      "pole": "",
+      "applies_when": ""
+    },
+    {
+      "id": "FP-0002b",
+      "name": "Learning accelerates with domain count",
+      "role": "core",
+      "pole": "",
+      "applies_when": ""
+    },
+    {
+      "id": "FP-0002c",
+      "name": "Successful people are multi-domain experts",
+      "role": "supporting",
+      "pole": "",
+      "applies_when": ""
+    }
+  ],
+  "effect_fingerprint": "concretize->add_examples->sharpen_claim->surface_tradeoffs",
+  "priority": 80,
+  "specificity": 35,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-14T00:00:00+08:00",
+  "updated_at": "2026-01-14T00:00:00+08:00",
+  "source_transcript": "Hello hello friend,\n\nSo why is being a generalist better than being a specialist? I've noticed that when all I thought about was writing, my view of the world was very narrow - it was always \"what could I write about?\" \"How do I make this hook better?\" \"What makes viral content?\"\n\nAnd I did think about this a distribution, but it wasn't that nuanced.\n\nAs my knowledge of marketing and strategy and crypto strategy has improved, so has my way of seeing the world.\n\nI actually noticed something interesting: as I age, I'm learning faster and faster, not slower and slower.\n\nBut I think the reason why that's happening is basically I have more than one domain expertise at this point. I can write, I can do marketing, I know the whole dating thing and relationship thing as well. Those three all intersect.\n\nSo Joey is wondering how come he says things around these like the young models and it sounds stupid, and I don't game but I don't say anything it doesn't sound stupid right?\n\nAnd I think part of the reason is skill transference. So even if I'm not gaming, the skills I use in my relationship carry over to how it is just talking to a beautiful woman in real life. What skills are those? They are:\n\n- Setting boundaries\n- Articulating expected responses\n- Reward/punishment\n- Compliance\n- Not overinvesting\n\nThere are a lot of things that just carry over. If there are domain expertise vs not, that's a really short thing.\n\nOkay, so how do I apply that to business? It's really similar to what I just said about skill transference being good for business. That's kind of like an obvious thing, right? Like, of course it's good.\n\nThis is actually interesting. Something I've read is that everyone that's really good at business (not everyone, but a lot of people) are like all these good founders and stuff. They're really good at a bunch of things - they know how to sell, they know the market, they know the right distribution funnels, they don't do email marketing (they know to read CTAs), they know how to build all them of tech right.\n\nAnd I actually don't think that's coincidental. Like, I don't know any really good person I look up to, really good founder, where it seems like he just knows how to do architecture. This is actually true. He knows how to sell, he has a pitch, you know? So do a lot of things. He does have soft skills when it's not the family.\n\nSo it's something I've noticed when we backward engineer the most successful people and the people look up to. There's never successful because of just one skill. Even mom is like that - she is a client mom who really understands game theory. In a weird way, where I mean I think she's nice but I think the other reason she puts Jana and the kids of the maids of school is like it is a game theory retention mechanism essentially.\n\nSomething to consider is that I think skill transference is the way forward. I think being good at one domain caps potential, and everybody that's ever done something really good is amazing at multiple domains - not just okay, but actually good at multiple domains. That's much better.",
+  "assumptions": [
+    "Classified as bundle because it contains multiple atomic insights (transfer mechanism, acceleration effect, successful people pattern)",
+    "Linked to FP-0001 as 'specializes' because this explains HOW generalists gain advantage",
+    "The Joey example and relationship skills list are treated as evidence, not separate principles",
+    "Priority 80 reflects speaker's conviction ('skill transference is the way forward')"
+  ]
+}

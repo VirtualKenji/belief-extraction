@@ -1,0 +1,111 @@
+{
+  "id": "FP-0001",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Generalists unlock income specialists cannot",
+  "canonical_slug": "generalists-unlock-income-specialists-cannot",
+  "aliases": [],
+  "definition": "Specialists have an income ceiling because their narrow expertise limits what they can see and do. Generalists who develop competence across multiple skills discover opportunities at the intersections between domains—where the real money is made.",
+  "core_claim": "If you develop competence across multiple skills rather than mastering just one, then you unlock income and opportunities unavailable to specialists, because value compounds at the intersections between domains, not within them.",
+  "idea_origin": {
+    "event_summary": "Worked as a writer focused solely on improving writing skills. Watched boss Jariah suddenly start making significantly more money. Asked what changed—he explained that learning all the skills (management, sales, strategy) even ones he didn't enjoy was what unlocked it.",
+    "trigger": "Jariah said 'specialists have an income cap' and 'the money is really made between each vertical, not within them.'",
+    "lesson_learned": "Stopped identifying solely as a writer. Learned crypto strategy, prompt engineering, bot creation, metrics analysis. Became the last remaining contractor because of the complete package, not just writing ability."
+  },
+  "canonical_instruction": "Identify the primary skill the writer is relying on. Then identify 2-3 adjacent skills that would create leverage when combined with the primary skill. Reframe the value proposition from 'I am good at X' to 'I can deliver the complete outcome by combining X + Y + Z.' Show how the intersections between skills create opportunities invisible to single-skill specialists.",
+  "applicability": {
+    "domains": ["career", "freelancing", "entrepreneurship", "personal branding", "salary negotiation"],
+    "audiences": ["specialists feeling stuck", "freelancers", "early-career professionals", "creatives"],
+    "situations": ["when income has plateaued", "when feeling replaceable", "when afraid to learn new skills", "when over-indexing on one identity"],
+    "exclusions": ["fields requiring deep specialization by law (surgery, law)", "early skill-building phase where fundamentals matter", "contexts where generalism signals lack of expertise"]
+  },
+  "transformation_rules": [
+    "Identify the writer's primary skill or identity",
+    "List adjacent skills that would compound with the primary skill",
+    "Reframe value from single-skill to multi-skill package",
+    "Show where 'money between verticals' applies to their situation",
+    "Add a 'get hands dirty' example—an uncomfortable skill worth learning",
+    "Surface the income ceiling of remaining a pure specialist"
+  ],
+  "tests": [
+    "Output names at least 2 adjacent skills to learn",
+    "Output reframes identity from specialist to generalist",
+    "Output contains phrase about intersections or connections between skills",
+    "Output acknowledges discomfort of learning new skills is worth it",
+    "No language suggesting 'just get better at your one thing'",
+    "Reader can identify one concrete skill to add to their stack"
+  ],
+  "counterexamples": [
+    "Medical specialization where generalism is dangerous (you want a heart surgeon, not a general doctor)",
+    "Early career when you haven't mastered any skill yet—foundation first, then expand",
+    "Contexts where being a 'jack of all trades' signals incompetence rather than versatility"
+  ],
+  "input_triggers": [
+    "feeling stuck in income",
+    "identifying too strongly with one skill",
+    "afraid to learn something new",
+    "feeling replaceable despite being good",
+    "watching others succeed with less raw skill",
+    "asking 'how do I make more money'"
+  ],
+  "output_format_targets": ["essay", "tweet", "thread", "career advice", "self-reflection"],
+  "related": [
+    {
+      "id": "FP-????",
+      "relation": "overlaps",
+      "note": "Related to 'get hands dirty' principle about willingness to do uncomfortable work"
+    },
+    {
+      "id": "FP-????",
+      "relation": "overlaps",
+      "note": "Related to identity flexibility—willingness to become someone new to unlock new skills"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0001a",
+      "name": "Specialists have income ceilings",
+      "role": "core",
+      "pole": "",
+      "applies_when": ""
+    },
+    {
+      "id": "FP-0001b",
+      "name": "Money is made between verticals",
+      "role": "core",
+      "pole": "",
+      "applies_when": ""
+    },
+    {
+      "id": "FP-0001c",
+      "name": "Get hands dirty on uncomfortable skills",
+      "role": "supporting",
+      "pole": "",
+      "applies_when": ""
+    },
+    {
+      "id": "FP-0001d",
+      "name": "Holistic view enables survival",
+      "role": "supporting",
+      "pole": "",
+      "applies_when": ""
+    }
+  ],
+  "effect_fingerprint": "surface_tradeoffs->add_constraints->add_examples->sharpen_claim",
+  "priority": 85,
+  "specificity": 40,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-14T00:00:00+08:00",
+  "updated_at": "2026-01-14T00:00:00+08:00",
+  "source_transcript": "Hello, hello. Okay, good. This principle is about why it's better to be a really good generalist and a really good specialist. For most of my life, I thought that the way to make money and be super successful was to be really, really good at one thing. So dad was an architect and mom was an interior designer, and they always told me that they went all-in on this one thing and don't do it for the money, and it will pay off. That could be true, but it could also not be true. The more I grow up, the more I realize how untrue that actually is. The problem with being a specialist is that there comes a point when your understanding becomes too narrow, and you just aren't able to pivot. Maybe that was okay in the past, like before the digital age, but right now, I think that it is essential that someone knows how to make money online using multiple skills. Where this really stuck with me is that after I learned how to write, I just focused on being the best writer I could. Most of my days were just \"oh, how do I write this tweet better? How do I write this idea better?\" It was just writing, writing, writing, writing. My boss Jariah essentially just started making so much money I had no idea what he was doing, and it was weird because I was talking to him every week, and all of a sudden it just seemed like he was making an insane amount of money every month. I asked him when he did differently, and what he basically said was that his approach was to learn all the skills - like he doesn't like management or sales or strategy or any of those things, but he had to learn them, and that's where it basically unlocked. He's saying that specialists have an income cap, and if someone is really good at multiple dimensions or skills, they see connections that would otherwise be unavailable to specialists, and the money is really made between each vertical, not within them. Right. And I didn't really realize what he meant. Okay, so that's one topic right. And there's something else I learned from Jariah - where he's not afraid to get his hands dirty. I remember when he asked me to do replies for MUX, one of my clients, and I hated the idea. We were like \"I don't want to do it\", and he was like \"Just do it, just do it, just do it\". Because I didn't think that was part of my job scope - I thought that was just not part of writing. I thought it required a different skill set, and it did actually require a different skill set. But something I appreciate about Jariah, my boss, is that he is not afraid to get his hands dirty. So he has all the skills; he's okay being a reply guy. He knows how to write, he knows how to do all those things, and as a result of that, he has a very holistic view of essentially \"what's up\". He has a very holistic view of the means to make money. So I realized how does this look like for myself? Once I learned how to do crypto strategy, that's when I really began to feel comfortable in my income, because if I was still just a writer, I would have been fired a long time ago. Right now, I'm the last one remaining of my team. The other contractors are fired, and I'm the last one right now that is remaining, and the reason is not because I'm a good rider (I mean, I am), but the reason is that I could do a lot of the entire package by myself. I know how to write prompts, I know how to create bots, I know how to think of cause and effect, I know how to view which metrics are good and which metrics aren't good, and what's up. But also just to add to that, it's also because they guess like of course well, you know, like Jiraiya can have like all the skills, of course, emotionally he's not like that well-versed or good with words or like management and whatnot, and I guess also like why you stuck around. Probably because that's also a skill that you needed to unlock. Like people who laughed at them, they just didn't maybe like one to deal with it, but it's not like that. Even though like his delivery, how he always says it's like so bad, it's not like that. He's not so I guess like you stuck around and of course also be <1 minute that's why. And also like because of that, your skills like Expanded more because you also stuck to someone who is I guess like these levels ahead of you. There are others maybe like they didn't want to push themselves through that kind of pain and to create a new identity. I agree. Okay, would allow them to unlock new skills with which they could make money. Yeah, I agree. I'm gonna kill this and start a new one.",
+  "assumptions": [
+    "Classified as bundle because it contains multiple distinct atomic insights (income ceiling, intersections, hands dirty, holistic view)",
+    "Priority set to 85 based on speaker's emphasis and personal proof (being last contractor standing)",
+    "The transcript includes a second speaker's comments near the end which appear to be a conversation partner adding context"
+  ]
+}
