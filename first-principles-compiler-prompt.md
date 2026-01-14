@@ -136,6 +136,9 @@ Structure:
 If you cannot imagine splitting a component into its own file later,
 it is not atomic enough.
 
+If you cannot write a falsifiable "If X, then Y, because Z" statement
+for a component, it is not atomic enough.
+
 ────────────────────────────────────────
 CANONICAL INSTRUCTION (VERY IMPORTANT)
 ────────────────────────────────────────
@@ -205,6 +208,16 @@ SOURCE OF TRUTH
 - Preserve examples as evidence, not as separate principles unless unavoidable.
 
 ────────────────────────────────────────
+TRANSCRIPT LITERALITY REQUIREMENT (MANDATORY)
+────────────────────────────────────────
+- Preserve at least:
+  - ONE concrete example used by the speaker
+  - ONE explicit contrast or reversal described in the transcript
+- If numbers, percentages, ratios, or concrete quantities appear, they MUST be included.
+- If the transcript uses a vivid comparison (e.g., chairs vs tweets), encode it explicitly.
+- Do NOT replace specific examples with generalized language.
+
+────────────────────────────────────────
 FINAL CHECK (MANDATORY)
 ────────────────────────────────────────
 Before outputting, ask yourself:
@@ -212,8 +225,14 @@ Before outputting, ask yourself:
 1. Could a different AI APPLY this without guessing?
 2. Could this be SPLIT or MERGED later cleanly?
 3. Does this feel slightly "over-explicit" rather than elegant?
+4. Could this principle be confused with a generic productivity or leverage claim?
 
-If not, revise.
+If YES to #4, rewrite to include:
+- explicit mechanics
+- explicit contrasts
+- explicit examples from the transcript
+
+If not passing 1-3, revise.
 
 ────────────────────────────────────────
 NOW COMPILE THE FOLLOWING TRANSCRIPT:
