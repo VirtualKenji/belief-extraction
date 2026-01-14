@@ -21,6 +21,13 @@ If forced to choose:
 - Prefer mechanical over poetic
 
 ────────────────────────────────────────
+IMPORTANT
+────────────────────────────────────────
+This prompt does NOT decide acceptance.
+All outputs will be judged by a separate Quality Gate.
+Over-extract rather than self-censor.
+
+────────────────────────────────────────
 HARD RULES (NON-NEGOTIABLE)
 ────────────────────────────────────────
 - Output MUST be valid JSON only.

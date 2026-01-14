@@ -28,6 +28,13 @@ NON-NEGOTIABLE RULES
 - All decisions must be conservative and explicit.
 
 ────────────────────────────────────────
+IMPORTANT
+────────────────────────────────────────
+Recompilation attempts are guided by explicit failure reasons from the Quality Gate.
+Do NOT change the core claim unless superseding is required.
+Optimize strictly for passing the Quality Gate.
+
+────────────────────────────────────────
 DECISION LOGIC (VERY IMPORTANT)
 ────────────────────────────────────────
 
