@@ -1,0 +1,122 @@
+{
+  "id": "FP-0010",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Unaddressed boundary crossings erode self-respect until verbally resolved",
+  "canonical_slug": "boundary-talks-for-emotional-resolution",
+  "aliases": ["boundary talks", "emotional resolution"],
+  "definition": "When someone crosses your boundary and you don't address it, the issue stays in your system as emotional weight. Signs: you become more irritable around them, get triggered for no reason, think what they say is stupid, your view of them changes. This weight cannot be resolved internally—it requires a verbal boundary talk: 'I didn't like what you did. This is how it felt. You can accept it or not, change your behavior or not, but I want you to know where I stand.' Avoiding this for the sake of politeness erodes respect for both the other person and yourself. Having the talk restores self-respect, and the other person often respects you more even if they disagree.",
+  "core_claim": "If someone crosses your boundary and you don't address it verbally, then you lose respect for them AND yourself, because the emotional weight of an unresolved boundary cannot be fixed in your head—it requires explicit communication. This is how marriages break apart, friendships dissolve, and best friends secretly start hating each other.",
+  "idea_origin": {
+    "event_summary": "Observing how relationships erode when people avoid boundary talks for the sake of being polite, and connecting this to trading psychology where avoiding emotions (FOMO, anger) rather than resolving them leads to getting wrecked.",
+    "trigger": "Reading about emotional resolution in trading and recognizing the same pattern: the goal is emotional resolution, but the vehicle differs (boundary talk for relationships, something else for trading).",
+    "lesson_learned": "Boundary crossings create emotional weight that doesn't resolve internally. The weight erodes self-respect until verbally addressed. Avoidance for politeness causes relationship breakdown."
+  },
+  "canonical_instruction": "Identify if the user is experiencing unexplained irritability or changed perception toward someone. Check if there was an unaddressed boundary crossing (something they didn't like but didn't speak up about). Name the specific boundary that was crossed. Provide the boundary talk structure: (1) state what they didn't like, (2) state how it felt, (3) state the other person can accept or not, change or not, (4) state where they stand. Warn that avoiding this erodes self-respect and respect for the other person.",
+  "applicability": {
+    "domains": ["relationships", "communication", "self-esteem", "conflict resolution", "trading psychology"],
+    "audiences": ["people avoiding difficult conversations", "people irritable at someone for 'no reason'", "people losing respect for friends/partners"],
+    "situations": ["unexplained irritability toward someone", "view of someone changed negatively", "avoiding conversations to keep the peace", "marriages/friendships silently deteriorating"],
+    "exclusions": ["situations where the other person is dangerous or abusive", "cases where the irritability has a different cause", "professional contexts requiring different protocols"]
+  },
+  "transformation_rules": [
+    "Identify if user is irritable or triggered by someone for unclear reasons",
+    "Ask what the other person did or said that they didn't address",
+    "Name the specific boundary that was crossed",
+    "Provide the boundary talk structure (what happened, how it felt, where you stand)",
+    "Warn that avoiding erodes self-respect and relationship quality",
+    "Note that the other person often respects you more after, even if they disagree"
+  ],
+  "tests": [
+    "Output identifies a specific unaddressed boundary crossing, not vague 'communication issues'",
+    "Output includes the boundary talk structure from the transcript",
+    "Output mentions self-respect erosion as consequence of avoidance",
+    "Output acknowledges the rapport-breaking discomfort of boundary talks",
+    "No suggestion to 'just let it go' or 'fix it in your head'",
+    "Output warns that this is how relationships dissolve"
+  ],
+  "counterexamples": [
+    "Situations where the other person is dangerous and confrontation is unsafe",
+    "Irritability caused by external factors unrelated to the person",
+    "Professional contexts with HR protocols that supersede direct boundary talks"
+  ],
+  "input_triggers": [
+    "irritable around someone for no reason",
+    "get triggered by what they say",
+    "view of someone changed negatively",
+    "avoiding a conversation to keep the peace",
+    "secretly starting to hate a friend",
+    "marriage or friendship silently deteriorating",
+    "losing respect for someone but not saying anything",
+    "being polite instead of honest"
+  ],
+  "output_format_targets": ["relationship coaching", "self-reflection", "conflict resolution", "communication advice"],
+  "related": [
+    {
+      "id": "FP-0008",
+      "relation": "bundles_with",
+      "note": "Boundary talks are a trait of high self-esteem (transparency, strong boundaries) as described in HSE vs LSE"
+    },
+    {
+      "id": "FP-0005",
+      "relation": "overlaps",
+      "note": "Boundary talks are mentioned as a traditional authority-building method that requires receiver input first"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0010a",
+      "name": "Unaddressed boundary crossings manifest as irritability and changed perception",
+      "role": "detection",
+      "pole": "",
+      "applies_when": "Someone is irritable toward a person for 'no reason' or their view of the person changed negatively"
+    },
+    {
+      "id": "FP-0010b",
+      "name": "Boundary weight cannot be resolved internally—requires verbal address",
+      "role": "core",
+      "pole": "",
+      "applies_when": "Someone is trying to 'fix it in their head' or 'just let it go' instead of speaking up"
+    },
+    {
+      "id": "FP-0010c",
+      "name": "Avoidance for politeness erodes self-respect and relationship quality",
+      "role": "consequence",
+      "pole": "avoidance",
+      "applies_when": "Someone avoids the boundary talk to keep the peace or avoid discomfort"
+    },
+    {
+      "id": "FP-0010d",
+      "name": "Boundary talk structure restores respect even if other person disagrees",
+      "role": "mechanism",
+      "pole": "resolution",
+      "applies_when": "Someone has the boundary talk: state what happened, how it felt, where you stand"
+    },
+    {
+      "id": "FP-0010e",
+      "name": "Emotional resolution goal applies across domains (relationships, trading)",
+      "role": "generalization",
+      "pole": "",
+      "applies_when": "Recognizing that FOMO/anger in trading and unaddressed boundaries both require emotional resolution, just via different vehicles"
+    }
+  ],
+  "effect_fingerprint": "detect_irritability->identify_boundary_crossing->provide_talk_structure->warn_erosion_consequence",
+  "priority": 80,
+  "specificity": 55,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-14T00:00:00+08:00",
+  "updated_at": "2026-01-14T00:00:00+08:00",
+  "source_transcript": "OK, so let's start with what a boundary talk is, right? To have a boundary talk, you have to know when your boundary is crossed by another person. Most people don't know the exact point this happens, but there are signs afterwards. The biggest sign is you're much more irritable around that person. For no reason. You get triggered for no reason. They say something, you think it's stupid. Your view of them changes, right? What ended up happening is they did something or said something across one of your boundaries and you didn't address it. Until that boundary is addressed, meaning you're not going to fix it in your head. You have to actually bring it up and speak to them and say, \"Hey, I didn't like what you did. This is how it felt like. You know, you could accept it or not. You could change your behavior or not, but I just want to let you know where I stand.\" That's basically a structure until you do that. The boundary will always be there, and this is how marriages break apart. This is how friendships dissolve. This is how best friends secretly start hitting each other because they never have boundary talks for the sake of being polite. The reason why people hate boundary talks is that it breaks rapport. What that means is like essentially a boundary talk is you going up to the person, \"Everything's okay,\" and say, \"Hey, we need to talk.\" Nobody likes doing that. Nobody likes bringing up emotions. Nobody likes making people uncomfortable. Intrinsically, right? But boundary talks are an emotional weight, and until it's resolved, it'll stick into your system. It doesn't only make you lose respect for the other person; it makes you lose respect for yourself. It erodes your respect. The great thing about having a boundary talk, if it's really meaningful to you, is that it not only restores your respect in yourself, but chances are the other person, even if they don't agree with what you said, will respect you more just because you're being open, you're being honest. You communicate the boundary. You communicate what you're okay with and you aren't. And again, this is something that's related to high self-esteem, low self-esteem. This is something that's related to transparency. Most interestingly, I realized that this is something that's related to trading. Apparently, there is such a thing as emotional resolution in trading to fix sticking points, FOMO. It's still on the book I'm reading. I'm still gonna add to this thought where you know if you feel FOMO, anger, any of that. Just like in a boundary talk, it's not good to avoid that or to never feel that. A lot of trading advice is like, \"No, never feel that. Never get triggered. Never do this. Never do that.\" That's actually the wrong approach because at one point you will get triggered and you will get wrecked. The vehicle to emotional resolution is not a boundary talk for trading; it is something else. But the fact of the matter is that the goal of both a boundary talk and whatever this method is for trading is emotional resolution. This is a thought I will revisit.",
+  "assumptions": [
+    "Classified as bundle because it combines detection mechanism, procedure, and consequences across multiple contexts",
+    "Priority 80 reflects relationship-critical nature (marriages break apart, friendships dissolve)",
+    "Trading connection preserved as generalization component but marked as incomplete (speaker still reading about it)",
+    "Linked to FP-0008 (HSE vs LSE) as speaker explicitly connects boundary talks to high self-esteem traits",
+    "The boundary talk structure is preserved verbatim from transcript"
+  ]
+}
