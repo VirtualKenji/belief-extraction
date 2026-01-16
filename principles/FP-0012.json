@@ -1,0 +1,114 @@
+{
+  "id": "FP-0012",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Deep work on command unlocks when you can see multiple strategies for the same objective",
+  "canonical_slug": "deep-work-on-command-unlocks-via-multi-strategy-competence",
+  "aliases": ["skill funnel", "compressing deep work", "deep work multitasking", "on-demand focus"],
+  "definition": "The ability to enter deep work on command (working effectively from phone, in noisy environments, while partying) is not a fixed personality trait but a trainable skill that follows a funnel: tasks go from impossible → medium difficulty → easy as domain competence increases. The unlock happens specifically when you can see multiple approaches to the same objective and understand the pros/cons of each. In areas where you only see one strategy forward, you cannot pop into deep work on demand.",
+  "core_claim": "If you can see multiple strategies for the same objective with their pros and cons, then you can enter deep work on command in that domain, because multi-strategy competence allows you to tailor method to objective without needing ideal conditions. If you only see one strategy forward, you cannot do this regardless of environmental setup.",
+  "idea_origin": {
+    "event_summary": "Speaker initially needed two monitors, silence, and sound-blocking headphones to do any deep work. Thought he didn't have capacity to grow his brand while working for agency. Saw boss Jiraiya working from phone getting high-level strategy done, and Osmo writing tweets/threads at airport - seemed impossible. During Slovenia trip, realized he could do high-level work from phone. Tested doing low-grade work while partying - it worked.",
+    "trigger": "Seeing Osmo writing threads from his laptop at the airport while still managing to grow his Twitter account and maintain social life. 'It seemed like such a big deal at the time... it was an amazingly big deal because Osmo was outputting all this high-level work.'",
+    "lesson_learned": "Deep work on command is not binary (possible/impossible) but follows a skill funnel (impossible → medium → easy). The unlock is domain-specific: you can pop into deep work when you can see multiple approaches to the same objective with pros/cons. For new skills like coding, still can't do it on phone - funnel position depends on competence level."
+  },
+  "canonical_instruction": "Identify the domain the user is trying to work in. Check whether they can list multiple approaches to their current objective with pros/cons of each. If yes, they have the prerequisites for on-demand deep work in that domain - the issue is likely environmental expectations, not capacity. If no (they only see one strategy forward or don't understand its nuances), they need to build competence first before on-demand deep work becomes available. Map their current position on the skill funnel (impossible → medium → easy) for this specific domain.",
+  "applicability": {
+    "domains": ["knowledge work", "creative work", "strategy", "writing", "coaching", "any skill-based domain"],
+    "audiences": ["people who feel they lack capacity", "people who think they need perfect conditions to work", "people frustrated by others who seem to work anywhere"],
+    "situations": ["feeling like you never have time", "thinking you need two monitors and silence to focus", "watching others work from phones and not understanding how", "giving up side projects because 'no capacity'", "being unable to explain to others how you have time"],
+    "exclusions": ["genuinely new skills where competence hasn't developed yet", "tasks requiring specialized equipment (can't code on phone if you need IDE)", "domains where the user truly only knows one approach"]
+  },
+  "transformation_rules": [
+    "Identify the specific domain/task the user is struggling to do flexibly",
+    "Ask user to list 2-3 different approaches they could take to the current objective",
+    "If they can list approaches with pros/cons, conclude they have multi-strategy competence - reframe the problem as environmental expectations not capacity",
+    "If they cannot list approaches, identify this as competence gap - they need more domain experience before on-demand deep work unlocks",
+    "Map their position on skill funnel: impossible (need perfect conditions) → medium (can do it but takes longer) → easy (can do it on phone)",
+    "Show that the funnel position is domain-specific: same person can be at different positions in different domains"
+  ],
+  "tests": [
+    "Output identifies user's specific domain and asks about multiple strategies for current objective",
+    "Output distinguishes between 'capacity problem' vs 'competence gap' based on whether user can see multiple approaches",
+    "Output names the skill funnel stages (impossible → medium → easy) explicitly",
+    "No suggestion that on-demand deep work is a personality trait or requires lifestyle changes",
+    "Output acknowledges domain-specificity: same person can be at different funnel positions in different domains",
+    "Preserves the Osmo/Jiraiya contrast: they aren't aliens, they just have multi-strategy competence in their domains"
+  ],
+  "counterexamples": [
+    "Genuinely new skill where user has no multiple strategies (e.g., speaker learning to code - can't do it on phone yet)",
+    "Tasks requiring specialized physical equipment regardless of competence",
+    "User who actually needs deep focus time and is using this as excuse to avoid it"
+  ],
+  "input_triggers": [
+    "I don't have time/capacity for this",
+    "I need two monitors and silence to focus",
+    "How does [person] work from their phone? I could never do that",
+    "I gave up [side project] because I don't have capacity",
+    "These people who work anywhere are just different/aliens",
+    "I need to take days off because I'm mentally exhausted",
+    "I can't explain to [friend] how I have time when they don't"
+  ],
+  "output_format_targets": ["productivity coaching", "self-diagnosis", "capacity assessment", "skill development planning"],
+  "related": [
+    {
+      "id": "FP-0002",
+      "relation": "overlaps",
+      "note": "Both relate to skill competence unlocking new capabilities"
+    },
+    {
+      "id": "FP-0007",
+      "relation": "overlaps",
+      "note": "Domain-specificity of the funnel position relates to stable vs dynamic domain concept"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0012a",
+      "name": "Deep work capacity follows a skill funnel, not binary possible/impossible",
+      "role": "core",
+      "pole": "",
+      "applies_when": "User believes they either can or cannot do deep work, missing the progression stages (impossible → medium → easy)"
+    },
+    {
+      "id": "FP-0012b",
+      "name": "Multi-strategy competence is the unlock condition for on-demand deep work",
+      "role": "mechanism",
+      "pole": "",
+      "applies_when": "User can see multiple approaches to same objective with pros/cons - they have the prerequisite for flexible deep work in that domain"
+    },
+    {
+      "id": "FP-0012c",
+      "name": "Single-strategy competence blocks on-demand deep work regardless of environment",
+      "role": "mechanism",
+      "pole": "opposite",
+      "applies_when": "User only sees one way forward and doesn't understand its nuances - they need more domain experience before flexibility unlocks"
+    },
+    {
+      "id": "FP-0012d",
+      "name": "Funnel position is domain-specific, not person-specific",
+      "role": "supporting",
+      "pole": "",
+      "applies_when": "User thinks they are globally 'someone who needs perfect conditions' vs recognizing they're at different funnel positions in different domains"
+    }
+  ],
+  "effect_fingerprint": "identify_domain->check_multi_strategy_competence->map_funnel_position->reframe_capacity_vs_competence",
+  "priority": 80,
+  "specificity": 45,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-16T00:00:00+08:00",
+  "updated_at": "2026-01-16T00:00:00+08:00",
+  "source_transcript": "OK, compressing deep work and deep work multitasking. So back in our lovely startup in 2020, 2021. You remember I kept telling myself, Oh my God. Just kidding. Our lovely startup in 2018 to 2020 or 2021. Was it three? We had BP for three years? 2019? Yes. No, I think it was like 20. We started 2019, I think. Whatever. OK so during like four or five years for sure. In my head I don't know how before we kind of closed it here I was like I don't want to do it. Was I doing well? OK not me but was BBB alive longer than I'd been doing online business? No It's insane because it feels like nothing progressed. OK so anyway back when we were doing BBB remember when I would have to normally just take days off because quote unquote I was stupid, I use all my mental power and remember, I was like, Oh, I'm exhausted. I have to take four days off right? Coffee. I didn't want to go to the office, I take four days off and the truth of the matter is like the mental load for BBB was extremely low. Like extremely low, like maybe, I think now that I reflect on it, probably like it's probably not because I was thinking too hard. It's probably because I just didn't feel like very constrained because it was mom's system I felt like it wasn't me. Like, I think actually that added to it. Like I don't want to you know like there was no direction really yeah, exactly like they there are there are a lot of things. Well, okay. I think that might be side questing but like basically at the time I thought you know, I'm mentally exhausted. I can't do this after take full days off right and then I read deep work by Cal Newport and I'm like Oh this could be trained right? And I started training it in 2022 when I started riding and after three hours of tweeting every day, I'd be exhausted basically and for a couple of years, my deep work was so specific like I needed you know, you couldn't talk to me. I needed sound blocking headphones. I needed two monitors Do you remember there was this whole time when I always needed a two monitor set up. I always needed everything to be quiet like When I go to The Boys, everything to be quiet. My focus would be so sharp right? And obviously my boss Jiraiya right? Because I didn't realize how like I was like how is this guy just traveling working from his phone getting you know higher level output then? I don't understand and for a long time we thought he was a little weird Until we met Osmo who is like not weird and he's normal and we saw Osmo basically writing Writing tweets and threads from his laptop in the airport Which if you think about it like Actually isn't such a big deal, but it seemed like such a big deal at the time I was like wow how does he do that like that's so crazy that foe and even you were like oh my god Oh you didn't see him yeah, but anyway, I saw Osmo, and it was such a big revelation to me I was like wait wow that's crazy Like how does anybody do like how does he work around other people like there are so many things where it's like okay That's not that big of a deal, but it was an amazingly big deal because all Osmo was outputting all these this high-level work right and on top of doing all the tailored work. He was still managing to grow his Twitter account and yeah and Social life exactly right and so what really I couldn't understand it because in my head I Gave up being I gave up growing my brand for For work for a tailor for it for the agency right basically I was like oh You know if only I didn't work for tailored I could have grown my brand I don't have capacity. I remember for maybe two years. I thought I didn't have enough capacity right like pre-ai and It just like I didn't get how people like Osmo or Jiraiya just existed Until we went to Slovenia four years ago for the wedding four months ago for the wedding four months ago for the wedding and I realized that Oh It ends in less than a minute. I'll just have to add it again wait\n\nAnd I realized that I could get high-level work done on my phone, like high-level thinking, not as good as if I had a laptop, right? What's funny is that she was just whatever it is. There's that, and I also realized that I don't know what exactly so anyway I realize I could do that. I came back to Manila and then I was like, \"Okay, it's not work is not as hard for me, I have more capacity, I have more spare time, so why don't I see if I could get low-grade work done like tweets or approvals or all that while going out with the boys, while partying, while being on stuff, right? And I wanted it to be true, and it was true. I could do it. Basically, I could do that trait that I thought was impossible, which is going in and out of deep work on command, right? And now that I think about it, I don't think it's a binary thing like if I need to learn a new skill now or really need to think, I couldn't do it on my phone right now, like I'm learning how to code and vibe, I couldn't do it on my phone, like right now, I'm not at the level yet, right? But work or crypto strategy or directing, writing, or editing tweets, all these things seem impossible to me. Basically goes through a skill funnel, all right? It goes from being completely impossible to medium difficulty, meaning I could do it but it takes longer than I think to easy and I could do it on my phone, right? And so this was such a big unlock for me because I have friends now, Rick, basically, right? And I know that he seems like he feels like he never has time for anything, and I can't explain to him how I have time, and this is also something that Jiraiya at the time had a very hard time explaining to me. He's like, \"Because we'd go to trips with him, he'd be like, 'Let's go to the beach and we could work afterwards.'\" I'm like, \"No way, I couldn't do that, right? That's very funny coming from my boss, right? And he didn't understand it as well. So I think it is very hard to relate to someone that does have that skill, and if you do have that skill, it's also difficult to relate to somebody that can't do it, because again, to my boss, it's basically just as easy as texting and he could text anywhere and he could text in the coffee shop and he could text that and he's getting high-level strategy done, he's getting amazing critical thinking done, he could write essays on his phone basically, right? And that's a skill that not many people have, and that's a skill that I partially have in the domains I'm good at, but again, I think that everybody has some form of this skill in one way or another where they could access their game and retrieve it very easily under multiple circumstances, under conditions that are less than ideal, they could access whatever their game is and they could just bring it right. And what I'm actually learning is this 0-to-1 jump isn't limited to a single game. I'm sure when I get better at coding, I could code on my phone. I'm sure when I get better at the same thing with the guys asked me for advice on girls, I could literally just stop doing what I'm doing and give amazing advice that takes years is still right. And this gives me hope because I know what it feels like to be on one end of the spectrum where feels like I'm not getting anywhere, and like I don't have time, and I don't get these people are different like they're aliens and they'll I also know what it feels like to be in the other side, where we're like, \"Okay, it is learnable. It is a skill.\" In some things, I can do this, and in other things, I can't, but now that I know that the funnel exists, and that's what matters, anything that cool, all right, one more.\n\nOkay, so just adding to this thought - what dictates the areas where I could immediately pop into deep work vs. the areas I can't? In the areas I could pop into deep work (crypto strategy, writing, and dating/relationships), what I'm able to do is see the same thing from multiple lenses and propose different solutions for the same problem and understand the pros and cons of each.\n\nSo let me give you an example. If my friend asks me, \"I don't know what to text this girl, Dasha. I don't know what to say. What do I do? Her boyfriend is I want her, but she's going to see her boyfriend anyway. What do I say?\" I could say something like, \"Well, she's going to see her boyfriend anyway, so you may as well encourage it but do it in a dominant way. So she still is following your commands technically and complying regardless.\" And you could do it in a way where you're encouraging her to explore and then you're willing to walk away and do all that. Right? And so I'm able to tailor the method to the objective. And I think that is what the unlock is. I'm able to do all these things (not all these things). I'm able to unlock \"Are you okay? Yeah I could tell your dying\". I'm able to unlock deep work on command when I'm able to understand the objective and I have multiple ways to get there and I could tailor the strategy to the objective. I am not able to do this in areas where I don't have enough competence and I only see one strategy forward. I think that is a key differentiator and I don't understand the nuances in that strategy either.\n\nSo for riding I could look at a piece and I could say something looks bad with the hook. It doesn't something is implicit when it should be explicit or something is explicit when it should be implicit. I would prefer this shift this around. Like I could see all of these distinctions in writing just by looking at it, which is why I'm able to either edit it from my phone or direct somebody else to edit it. In an area where I'm less competent and I can't do that, I just cannot jump into deep work like that. So I think this is the line in the sand - the areas I'm able to do this in I'm able to see the objective approach it from multiple angles and tailor multiple strategies for each angle with pros and cons.",
+  "assumptions": [
+    "Classified as bundle because it combines: skill funnel model, multi-strategy competence mechanism, domain-specificity observation, and the before/after personal journey",
+    "Priority 80 reflects the 'big unlock' language and practical impact on speaker's capacity perception",
+    "The Osmo airport revelation and Jiraiya phone-working examples preserved as key evidence for the skill being learnable not innate",
+    "The coding example (can't do on phone yet) preserved as counterexample showing funnel position is domain-specific",
+    "Related to FP-0002 (skill transference) because both deal with competence unlocking new capabilities"
+  ]
+}
