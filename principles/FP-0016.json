@@ -1,0 +1,119 @@
+{
+  "id": "FP-0016",
+  "schema_version": "1.2.0",
+  "artifact_role": "archival",
+  "type": "bundle",
+  "name": "Consistency is table stakes; iteration is the actual lever",
+  "canonical_slug": "consistency-table-stakes-iteration-actual-lever",
+  "aliases": ["consistency plus plus plus", "cause-and-effect thinking over process tracking", "iteration over consistency"],
+  "definition": "Consistency (doing the same tasks daily) is the entry requirement that everyone at high levels already has. It is not the differentiator. The actual lever is iteration: identifying cause-and-effect relationships between actions and outcomes, then adjusting. Being 'good at processes' without identifying 'cause and effect' means running the same loop without learning why it works or fails. The paradox: progress can accelerate when you stop tracking consistency because attention shifts from process completion to outcome analysis.",
+  "core_claim": "If you are consistent but stuck (income flat, growth stalled despite daily habits), then stop tracking consistency and start mapping cause-and-effect between specific actions and outcomes, because consistency alone is the first lever everyone holds—the differentiator at higher levels is iteration (consistent plus plus plus), which means adjusting based on what actually moves the needle.",
+  "idea_origin": {
+    "event_summary": "Completed a 90-day challenge of doing the same tasks every day without missing. Tracked approximately 1000+ days of consistent habits including writing, visualization, and two-hour daily work blocks. Despite extreme consistency, income remained flat and felt stuck.",
+    "trigger": "Dariah's feedback: 'You're good at processes, but you're not good at finding cause and effect things.' This feedback was initially confusing but later crystallized the insight.",
+    "lesson_learned": "Progressed faster after stopping consistency tracking. The tracking itself anchored attention on process completion rather than outcome analysis. At higher levels, everyone is already consistent—the differentiator is 'consistent plus plus plus' meaning consistency combined with continuous iteration based on cause-effect analysis."
+  },
+  "canonical_instruction": "Identify whether the user is tracking process completion (days done, habits checked) or outcome change (revenue moved, followers gained, skills improved). List the specific daily actions they are performing consistently. Map each action to its measurable outcome over a defined period (30/60/90 days). Identify which actions have unclear or zero cause-effect relationship to desired outcomes. Remove or modify actions with no measurable effect. Add explicit iteration cycles: after each period, compare action-to-outcome ratios and adjust the action mix.",
+  "applicability": {
+    "domains": ["personal development", "content creation", "skill building", "business growth", "habit systems"],
+    "audiences": ["people who are extremely consistent but plateaued", "habit trackers who feel stuck", "content creators with flat growth despite daily output", "anyone running the same routine for 90+ days without outcome change"],
+    "situations": ["income has been flat for months despite consistent effort", "daily habits are checked but metrics aren't moving", "feeling 'stuck' despite doing everything 'right'", "tracking streak days rather than outcome metrics", "receiving feedback about being process-focused not results-focused"],
+    "exclusions": ["beginners who haven't yet established any consistency", "situations where consistency itself is the bottleneck", "contexts where the process IS the goal (meditation for calm, not metrics)", "early-stage skill building where repetition matters more than optimization"]
+  },
+  "transformation_rules": [
+    "Identify the user's current tracking method: are they counting process completion (days, habits) or outcome metrics (revenue, growth, skill measures)?",
+    "List all consistent actions the user performs daily/weekly with their duration and frequency",
+    "For each action, specify the expected outcome and the actual measured outcome over the past 30-90 days",
+    "Flag actions where cause-effect relationship is unclear or outcome is zero/negative",
+    "Propose one modification to each flagged action and define a 14-day test period to measure effect",
+    "Shift tracking from 'did I do the task' to 'what changed because I did the task'"
+  ],
+  "tests": [
+    "Output distinguishes between process-tracking (consistency) and outcome-tracking (iteration)",
+    "Output identifies at least one specific action the user is doing consistently with no clear outcome mapping",
+    "Output proposes a concrete modification to test, not vague advice like 'iterate more'",
+    "No language suggesting the user 'just needs to be more consistent' when they are already highly consistent",
+    "Output includes a defined measurement period for testing cause-effect relationships",
+    "The transcript's specific example (1000+ days tracked, income flat, Dariah's feedback) is referenced or paralleled in diagnosis"
+  ],
+  "counterexamples": [
+    "User who is not yet consistent—they need consistency first before iteration matters",
+    "User whose inconsistency IS the bottleneck (skipping days, not showing up)",
+    "Practices where the process is intrinsically valuable regardless of external outcomes (meditation, journaling for mental health)",
+    "Early skill acquisition where volume of repetition matters more than optimization (first 100 hours of a new skill)"
+  ],
+  "input_triggers": [
+    "I've been consistent for months but nothing is changing",
+    "I track my habits every day but I'm still stuck",
+    "I did the 90-day challenge but my income is the same",
+    "I write every day but my following isn't growing",
+    "I'm doing all the right things but not seeing results",
+    "Someone told me I'm good at processes but not at finding cause and effect",
+    "I've tracked over 1000 days of habits",
+    "Why am I stuck when I'm so consistent?"
+  ],
+  "output_format_targets": ["habit audit", "growth diagnosis", "iteration framework", "plateau breakthrough plan", "coaching feedback"],
+  "related": [
+    {
+      "id": "FP-0012",
+      "relation": "overlaps",
+      "note": "Deep work principles may need iteration layer—consistency in deep work without cause-effect analysis would trigger this principle"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0016a",
+      "name": "Consistency is table stakes at higher levels",
+      "role": "problem-frame",
+      "pole": "",
+      "applies_when": "User assumes consistency is their competitive advantage when everyone they're competing with is also consistent"
+    },
+    {
+      "id": "FP-0016b",
+      "name": "Process-tracking anchors attention on completion not outcomes",
+      "role": "mechanism-problem",
+      "pole": "",
+      "applies_when": "User tracks streak days, habit completions, or process adherence rather than outcome metrics"
+    },
+    {
+      "id": "FP-0016c",
+      "name": "Cause-effect mapping reveals which actions actually move outcomes",
+      "role": "mechanism-solution",
+      "pole": "",
+      "applies_when": "User needs to identify which of their consistent actions have zero or unclear relationship to desired outcomes"
+    },
+    {
+      "id": "FP-0016d",
+      "name": "Iteration cycles require modifying actions based on outcome data",
+      "role": "action",
+      "pole": "",
+      "applies_when": "User has identified low-effect actions and needs a concrete protocol for testing modifications"
+    }
+  ],
+  "effect_fingerprint": "identify_tracking_method->list_consistent_actions->map_action_to_outcome->flag_zero_effect_actions->propose_iteration_test",
+  "priority": 70,
+  "specificity": 60,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-23T00:00:00+08:00",
+  "updated_at": "2026-01-23T00:00:00+08:00",
+  "source_transcript": "# FP - Why Consistency is not enough and why iteration matters more\n\nokay, why consistency is not enough and why iteration matters more. This is actually something I learned over time when I first started writing online. Remember the 90-day challenge - don't take a day off for 90 days to do the same tasks, and then 100% you'll get to where you are. Right? It's not a hundred percent, but basically they're talking about the 90-day challenge, and if you get these three months done by doing the same tasks every day, then the way they sold it was like, \"Oh, you'll be unstoppable if you're just consistent.\" And I did it, it helped, and I actually tracked maybe a thousand something days. I didn't do it straight, but I was extremely consistent.\n\nWhat I actually figured out is that I progressed faster when I stopped tracking basically right. And I realized that when I talked to Dariah, his feedback for me was basically like, \"I was good at processes, but I wasn't good at finding out cause and effect things.\" Right? And I didn't understand what he meant. But what I was basically doing was I was very consistent over time with very little iteration, and I didn't realize why I was stuck. I didn't realize why, \"Oh, I'm writing every day, improving my writing, I'm doing all these little things. I do two hours of whatever every day, I have my habits every day, I visualize every day, I do all that. But I do my grad 2 is like, 'Why am I stuck? Why is my income the same way?' Right? I didn't realize that like consistency is sort of just getting your foot in the door. Like everybody at a high level is like, 'Ex, that's not the lever that needs to be pulled. It's like the first lever that you're supposed to hold.' But everybody ahead of me is like they're not only consistent, they're like, 'Consistent plus plus plus.'",
+  "assumptions": [
+    "Classified as bundle because it combines: problem diagnosis (consistency as table stakes), mechanism (cause-effect blindness from process-tracking), and solution (iteration cycles)",
+    "Priority 70 reflects high practical relevance for plateaued creators/builders",
+    "Specificity 60 because it applies broadly to anyone consistent but stuck, not just one narrow domain",
+    "The '1000+ days' and 'Dariah feedback' are literal transcript references preserved as evidence",
+    "Assumes user is genuinely consistent—if they're not, this principle doesn't apply and consistency should come first",
+    "The paradox (faster progress after stopping tracking) is attributed to attention shift, not to tracking being inherently bad"
+  ],
+  "execution_readiness": {
+    "mechanical_executability": 75,
+    "inference_cost": "medium",
+    "value_contamination": false,
+    "merge_candidate_score": 30
+  }
+}
