@@ -1,7 +1,8 @@
 {
   "id": "FP-####",
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "type": "atom | bundle",
+  "artifact_role": "executable | archival | hybrid",
   "name": "",
   "canonical_slug": "",
   "aliases": [],
@@ -52,5 +53,11 @@
   "created_at": "ISO-8601 (+08:00)",
   "updated_at": "ISO-8601 (+08:00)",
   "source_transcript": "",
-  "assumptions": []
+  "assumptions": [],
+  "execution_readiness": {
+    "mechanical_executability": "0-10 score",
+    "inference_cost": "low | medium | high",
+    "value_contamination": "true | false",
+    "merge_candidate_score": "0-10 score"
+  }
 }

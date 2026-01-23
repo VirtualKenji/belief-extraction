@@ -1,0 +1,120 @@
+{
+  "id": "FP-0014",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Farm Losses by Forcing Directional Lessons and Replacing Catastrophic Feedback with Small Nudges",
+  "canonical_slug": "farm-losses-directional-lessons-small-nudges",
+  "aliases": [],
+  "definition": "A method for turning trading losses into targeted skill acquisition by explicitly choosing the lesson the loss should teach, rejecting non-productive lessons, and installing low-friction tracking and review systems so growth is driven by frequent small feedback instead of infrequent catastrophic drawdowns.",
+  "core_claim": "If you treat each loss as a forced fork that outputs a specific, chosen lesson and you install a tracking system that produces daily accountability nudges, then your skill growth becomes less dependent on catastrophic losses, because you replace random pain-driven learning with repeated, low-friction measurement and review.",
+  "idea_origin": {
+    "event_summary": "A year (2025) containing unusually large profit followed by larger losses, producing a need to extract repeatable lessons without repeatedly paying catastrophic financial tuition.",
+    "trigger": "Losing more money in 2025 than the rest of life combined after making the most money ever in the same year.",
+    "lesson_learned": "Losses can be directive only if you explicitly decide what they should direct you toward and you reduce tracking friction so learning happens daily rather than after blowups."
+  },
+  "canonical_instruction": "After any meaningful loss, write a one-sentence lesson you intend to extract. Map that lesson to one concrete skill target and one constraint on what you will trade next. Identify at least one alternative lesson you could mistakenly learn and mark it as banned. Install a low-friction journal that forces daily bias, logs each trade, grades each setup, and tracks emotions across many trades. Use the journal outputs to schedule regular reviews that create small accountability nudges so you do not require another catastrophic loss to change behavior.",
+  "applicability": {
+    "domains": [
+      "trading",
+      "risk management",
+      "performance improvement",
+      "personal knowledge management"
+    ],
+    "audiences": [
+      "retail traders",
+      "leveraged crypto traders",
+      "skill-builders using feedback loops"
+    ],
+    "situations": [
+      "after a large loss or drawdown",
+      "when lessons from losses feel vague or cliche",
+      "when a trader repeats mistakes because tracking is too much friction",
+      "when growth happens only after catastrophic pain",
+      "when sizing increases rapidly after early success"
+    ],
+    "exclusions": [
+      "situations where trade logging is impossible or prohibited",
+      "losses caused by non-repeatable operational errors (e.g., exchange failure) without behavioral components"
+    ]
+  },
+  "transformation_rules": [
+    "Name the loss event using the asset/setup/date and the dollar amount.",
+    "Write the intended lesson as a single sentence using a concrete verb (e.g., learn_chart_reading, narrow_asset_focus).",
+    "Map the intended lesson to one skill target and one trading constraint for the next period.",
+    "List one tempting but non-productive lesson and mark it as banned.",
+    "Add the event to a journal that logs trade details and emotional state.",
+    "Run a review that grades results by setup and identifies where edge is bleeding.",
+    "Convert the review output into a small recurring nudge (daily bias + forced pre-trade thinking) instead of waiting for another blowup."
+  ],
+  "tests": [
+    "Includes at least one concrete loss with amount and timing (e.g., $125,000 swing in January 2025; $30,000 Ray loss in August 2025; $7,000 CME loss in December 2025; $23,000 CME loss on New Year's Eve).",
+    "Includes at least one explicit wrong lesson and labels it as non-productive (e.g., 'if I could just hold underwater, I would have won').",
+    "Canonical_instruction contains a procedure with explicit operations (name_loss, write_lesson, ban_wrong_lesson, log, grade, review, nudge).",
+    "Preserves a before/after contrast: catastrophic, infrequent losses versus smaller accountability nudges and regular reviews.",
+    "Mentions the low-friction journal requirements: forced daily bias, grading by setup, automatic tracking, emotional state tracking over many trades."
+  ],
+  "counterexamples": [
+    "A trader experiences a loss but makes no changes and does not extract or enforce a lesson.",
+    "A trader extracts the wrong lesson (e.g., 'hold underwater') and increases risk, producing a larger subsequent loss.",
+    "A trader logs trades inconsistently due to friction, so reviews cannot reveal setup-specific edge bleed."
+  ],
+  "input_triggers": [
+    "I learned the most from my losses",
+    "I lost $30,000 on Ray",
+    "CME Gap setup",
+    "If I had just held the trade underwater",
+    "I keep getting set back by big losses",
+    "There’s too much friction in tracking my trades",
+    "I need smaller accountability nudges and regular reviews"
+  ],
+  "output_format_targets": [
+    "trading journal specs",
+    "post-loss review checklists",
+    "risk management playbooks",
+    "PKM workflows"
+  ],
+  "related": [],
+  "components": [
+    {
+      "id": "FP-0014-A",
+      "name": "Choose the Lesson a Loss Must Teach",
+      "role": "mechanism",
+      "pole": "directionality",
+      "applies_when": "A loss could produce multiple interpretations and you want to force it to drive a specific skill upgrade."
+    },
+    {
+      "id": "FP-0014-B",
+      "name": "Ban the Wrong Lesson Before It Compounds",
+      "role": "mechanism",
+      "pole": "error_prevention",
+      "applies_when": "A loss tempts you toward a non-productive rule (e.g., 'just hold underwater') that increases future risk."
+    },
+    {
+      "id": "FP-0014-C",
+      "name": "Narrow Asset/Style to One That Transcends Market Regimes",
+      "role": "mechanism",
+      "pole": "focus",
+      "applies_when": "Losses reveal that asset selection and style drift are causing instability (e.g., shifting to BTC with a repeatable style)."
+    },
+    {
+      "id": "FP-0014-D",
+      "name": "Replace Catastrophic Feedback with Low-Friction Measurement",
+      "role": "mechanism",
+      "pole": "feedback_loop",
+      "applies_when": "Behavior only changes after large losses and you need daily/regular nudges driven by tracking and reviews."
+    }
+  ],
+  "effect_fingerprint": "name_loss->choose_lesson->ban_wrong_lesson->log_trades->grade_setups->review_edge_bleed->force_daily_bias",
+  "priority": 80,
+  "specificity": 90,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-23T00:00:00+08:00",
+  "updated_at": "2026-01-23T00:00:00+08:00",
+  "source_transcript": "FP – Farm Your Losses or Trading Losses.md",
+  "assumptions": []
+}

@@ -1,0 +1,125 @@
+{
+  "id": "FP-0015",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Choose Skills Over Niches by Treating Jobs as Vehicles for Skill Acquisition",
+  "canonical_slug": "choose-skills-over-niches-vehicle-for-skill-acquisition",
+  "aliases": [],
+  "definition": "A decision method where you pick a target skill stack first (especially scalable, high-income skills) and then choose the niche/job only as a vehicle to acquire and apply those skills, rather than choosing an option because it feels accessible within your current circle of competence.",
+  "core_claim": "If you choose the skill set you want to acquire and treat the niche/job as the vehicle to learn and apply that skill set, then you escape low-ceiling, time-for-money paths that feel accessible, because skills transfer across contexts while niches cap outcomes (e.g., gym requires presence; online business scales).",
+  "idea_origin": {
+    "event_summary": "Argument with friends about advising someone with no money to start a gym versus pursuing an online path; extended examples about family/friends defaulting to 'accessible' options and failing to act.",
+    "trigger": "A friend advising 'start a gym—you’re already buff' and other advice constrained by what feels closest and easiest.",
+    "lesson_learned": "Over-index the skill, not the niche; stop optimizing for 'in my circle of competence' and instead optimize for transferable, scalable skills."
+  },
+  "canonical_instruction": "Write the outcome you want (e.g., more money) and then list 3–5 skills that would produce that outcome in multiple industries (e.g., marketing, funnels, networking, selling, writing). For each option you are considering (e.g., gym, restaurant hosting, online business), map which of those skills it forces you to practice weekly. Reject options that mostly exchange your time for money and do not force acquisition of transferable skills. Choose the option that most directly forces the target skill practice, even if it feels inaccessible. Define the first action that proves commitment (e.g., message a key person) and execute it within the same day.",
+  "applicability": {
+    "domains": [
+      "career",
+      "entrepreneurship",
+      "skill acquisition",
+      "income strategy",
+      "leadership"
+    ],
+    "audiences": [
+      "early-stage builders",
+      "people stuck in low-ceiling roles",
+      "anyone choosing a path based on accessibility"
+    ],
+    "situations": [
+      "choosing between a local/service business and an online business",
+      "advice conversations where options are chosen because they are 'closest' or 'easiest'",
+      "feeling trapped because a role is outside the current wheelhouse",
+      "deciding whether to stay in a 'circle of competence'"
+    ],
+    "exclusions": [
+      "short-term survival choices where any income is required immediately and skill acquisition cannot be prioritized",
+      "regulated roles where skill practice is constrained by licensing timelines"
+    ]
+  },
+  "transformation_rules": [
+    "State the desired outcome in one sentence (e.g., increase income).",
+    "List 3–5 transferable skills that can produce that outcome across contexts.",
+    "List the candidate niches/jobs you are considering.",
+    "For each candidate, map which transferable skills it forces you to practice and how often.",
+    "Tag candidates that primarily exchange time for money and cap ceiling (e.g., requires presence, high overhead, low scalability).",
+    "Select the candidate with the highest forced practice of the target skills, even if it feels outside current competence.",
+    "Execute a proof-of-commitment action that requires outreach or discomfort (e.g., message the person you were introduced to) and log it."
+  ],
+  "tests": [
+    "Includes the gym vs online business contrast and states the ceiling difference in concrete terms (gym requires being there; online scales).",
+    "Includes at least one example where an 'accessible' option was proposed (gym, restaurant hosting) and is rejected due to skill/ceiling mismatch.",
+    "Includes at least one example of failure-to-act after being given an opportunity (e.g., not messaging the introduced person).",
+    "Explicitly rejects 'stay in your circle of competence' as a rule and replaces it with 'choose the skill first'.",
+    "Canonical_instruction is procedural (list, map, tag, select, execute) with no vague verbs."
+  ],
+  "counterexamples": [
+    "A person chooses an option that feels accessible (e.g., gym/restaurant job) and remains capped because skill transfer and scalability are not improved.",
+    "A person selects the higher-skill vehicle but never executes the first discomfort action (no outreach), so no skill is acquired in practice."
+  ],
+  "input_triggers": [
+    "Start a gym—you’re already buff",
+    "What fits my current skill set?",
+    "This doesn’t feel accessible to me",
+    "Stay in your circle of competence",
+    "A gym doesn’t scale like an online business",
+    "I set up an intro but he didn’t message",
+    "I feel trapped because it’s not my role"
+  ],
+  "output_format_targets": [
+    "career decision checklists",
+    "mentorship scripts",
+    "skill-stack roadmaps",
+    "path selection frameworks"
+  ],
+  "related": [
+    {
+      "id": "FP-????",
+      "relation": "specializes",
+      "note": "Specializes principles about skill stacking and repeatable income by making the niche-selection step subordinate to skill acquisition."
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0015-A",
+      "name": "Skill-First Path Selection",
+      "role": "mechanism",
+      "pole": "skill_over_niche",
+      "applies_when": "Choosing between multiple paths that differ in ceiling and transferability."
+    },
+    {
+      "id": "FP-0015-B",
+      "name": "Reject Accessibility as the Primary Criterion",
+      "role": "mechanism",
+      "pole": "anti_circle_of_competence",
+      "applies_when": "The decision is being constrained by 'closest to what I already know'."
+    },
+    {
+      "id": "FP-0015-C",
+      "name": "Scalability Filter: Time-for-Money vs Online Scale",
+      "role": "mechanism",
+      "pole": "ceiling_filter",
+      "applies_when": "Comparing options like a gym/service business versus an online business."
+    },
+    {
+      "id": "FP-0015-D",
+      "name": "Belief Through Jumps: Larger/More Jumps Increase Learnability Confidence",
+      "role": "mechanism",
+      "pole": "learnability_belief",
+      "applies_when": "You doubt you can learn skills outside your current wheelhouse and need evidence via successful jumps."
+    }
+  ],
+  "effect_fingerprint": "list_transferable_skills->map_options_to_skills->remove_accessibility_bias->select_high_ceiling_vehicle->execute_discomfort_action",
+  "priority": 75,
+  "specificity": 88,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-23T00:00:00+08:00",
+  "updated_at": "2026-01-23T00:00:00+08:00",
+  "source_transcript": "FP – Skills Over Niches.md",
+  "assumptions": []
+}

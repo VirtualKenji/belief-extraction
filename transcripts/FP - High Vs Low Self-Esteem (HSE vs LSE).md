@@ -1,0 +1,41 @@
+# FP - High Vs Low Self-Esteem (HSE vs LSE)
+
+High self-esteem vs. low self-esteem in an ML or masterful lover context. I actually think this is the single principle that's changed my life the most, personally. Right now, I have developed high self-esteem for ML, and before that, everything was very different. So, self-esteem might be a loaded word; what is actually more accurate is high deserventness and low deserventness.
+
+There are a few I'll just call them high self-esteem/low self-esteem simplification. Right? So, there are a few differences. This is actually based on attachment theory, can't remember by who, if it's Carl Jung or this is actually based on attachment theory, right? One of those guys, and the theory is the theory for high vs. low self-esteem. The base theory is that how comfortable someone is being emotionally close to somebody. That's one pillar.
+
+And so, what that means is that if someone has high self-esteem, they seek emotional closeness and to be understood by people that they respect. Or, they're not afraid of emotional closeness if the person is correct, right? The thing about low self-esteem people is they say they want emotional closeness but they believe that it could never be true to them, true for them, because they believe that they're not inherently likable. Like, people always like them for something that's not them, their looks, their money, their whatever. Consequently, they also like people for the same thing. Something that's extrinsic to them, their looks, their money, the acts as they provide. A lot of times, a high self-esteem person will enjoy someone's company for the sake of connection or enjoying company or something. A low self-esteem person will enjoy someone's company or be in a relationship for convenience, for give and take, for "I'm getting this" (free trip is transactional). Right?
+
+And so, speaking from myself who used to be low self-esteem, the only way I could describe it on a personal level was when my self-esteem was lower, everything was in flux. Like, I really wanted validation from a lot of people. I wanted to be with the hottest girls even if I knew that they were bad for me. I wanted to be perceived a certain way. Girls didn't want to be with me because of me. I inherently believed that the only reason girls want to be with me was because I was good at game or I was good at sex or I knew how to do ML. And because of that, I actually started only going for girls at boyfriends or married women. And the reason I did that was because I didn't want to be responsible for their entire needs. I just wanted to meet this one need of them (like, meet the sex part) and being too close to them or receiving all of them would be too scary for me.
+
+So, that's the first part. And then let me read the notes now actually because there is quite a bit.
+
+Okay, high self-esteem vs. low self-esteem. Drama, right? So, low self-esteem people a lot more drama. Why is this? Because even if somebody comes into their life that is perfect, a perfect partner, a perfect person, a perfect job, a perfect anything, they inherently don't believe that they deserve that and so they will sabotage it hoping that they are either pursued or basically like they will sabotage something perfect trying to get pursued. Sabotage something perfect trying to get pursued sabotage something perfect trying to get pursued. And they want to feel Actually, I don't know what the hell they want to feel right. Like, I think they want to feel like "Yes, see, invalidated by the action of being pursued not by just being there already not by being close to someone but repeatedly trying to get someone close to them or trying to get close to somebody". Okay, so that's one part.
+
+Okay, so emotional diversification. This is something directly from attachment theory. A high self-esteem person wants their partner to be everything to them as much as possible. That means they want their partner to be their best lover, someone they trust, a life partner, someone they could do a lot of things with, etc. Low self-esteem people actually avoid this. What this means is they will actually try to split their emotional needs up into multiple partners because it feels safer.
+
+So, how does this look like in theory? For a man, that means never wanting to settle down and being scared of commitment by having a set of girls in rotation. For a woman, it means having orbiterers. What does that mean? It means a woman has:
+
+- One guy that's her best friend
+- One guy that pays for all her stuff
+- One guy that's like macho and good at sex
+
+And they never want to combine it because the fear of losing one is too scary for them. So that is emotional diversification in a nutshell. It is one of the easiest ways to actually identify high self-esteem vs low self-esteem. You could just look at somebody's relationship history or look at the amount of emotional diversification they have in their life. If you want to go for a girl, she has a bunch of guys around her all the time, bunch of guys best friends, that is not the girl you should go for.
+
+So, how do I relate this to business?
+
+Yeah, it's the same. High self-esteem, deservedness. You know? You're always saying, "Yeah, I'm going to create a brand or an agency or this or something." But you would always say, "But I don't have all the skills yet, as let's say, as Jiraya has." And of course that is valid. But of course people also start with nothing. Needs to be like that perfect. It's not like it's trading where you need to be 99% right.
+
+Something interesting to bring up is that I've noticed that I have high self-esteem in real life. How do I say this? Mostly so, what is high self-esteem? Essentially, right? We were to put it through traits, vulnerability is a strength, another side it. That's the wrong notes, discard that. What is high self-esteem?
+
+1. Self-respect
+2. Transparency
+3. Strong boundaries
+
+I tell someone as soon as they did something wrong to me. I noticed that I am significantly worse at doing all of this in a business setting. So what that means is that if my boss asked me to do something I immediately think it's stupid. I'm not about to set a boundary and say I'm not willing to do that right away.
+
+I noticed that the way I communicate with either my boss or my client/clients is a lot more indirect than I am in real life. There's a lot more hedging. I'm a lot more scared to show when I mess up and scared to own it. And I don't know what's up. Sometimes you're much more confident, whereas in meetings sometimes you would kind of stutter or like you know uh uh uh or something, whereas in real life you really don't have that kind of problem with articulating an idea or something that you know.
+
+Yeah, that is true. So a question to bring up is, "Is self-esteem an offshoot of competence?" So why do I have such high self-esteem when it comes to women? I know I'm the sh*t, I know I'm amazing. Essentially, right? So I know I have relationship skills I've built up over time, I know that I've already repeatedly dated the type of women that I want to date (I've been with essentially a bunch of models already). I'm happy there. I know that what I've gotten from women is essentially I've also gotten them to cheat on their husbands and boyfriends with me, so I know I definitely have something. And I know that I definitely have leverage.
+
+So what that means is that I know I'm skilled, I know I am unique, I know I'm irreplaceable, right, in the dating space, essentially in my head at least. And that does not carry over to work at all. I know I'm good, but there's a very big skill gap between good and irreplaceable, right? So I don't know if self-esteem is an offshoot of capability. I'm not sure myself yet, but all I know is that before I had self-esteem with women and with girls and in relationships, I got really, really, really good at them first, right? And so, how do I achieve that same level of confidence and self-esteem, the same level of transparency, and the same level of ability to say no and in work? I'm not sure yet, but this is something I need to think about actually.

@@ -1,0 +1,108 @@
+{
+  "id": "FP-0013-Claude",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Farm your losses by replacing catastrophic feedback with systematic tracking",
+  "canonical_slug": "farm-losses-systematic-tracking",
+  "aliases": ["trading losses as teachers", "loss farming", "catastrophic vs systematic feedback"],
+  "definition": "Losses drive learning because pain is memorable and motivating, but relying on catastrophic financial losses for growth is unsustainable—each loss sets your timeline back. The solution is to replace infrequent catastrophic feedback with frequent systematic tracking (daily bias, trade grading, emotional state logging) that provides the same directional nudges without the financial setback.",
+  "core_claim": "If you are only growing through catastrophic losses, then build a systematic tracking system that provides smaller, frequent accountability nudges, because catastrophic losses are directive but financially irreversible, and you don't have infinite lives when it comes to money.",
+  "idea_origin": {
+    "event_summary": "In 2025, made the most money ever then lost more than that in the same year through a series of trading losses: $125k up/down in AI crash (January), $30k on Ray altcoin (August), $7k CME long (December), $23k CME short (New Year's Eve).",
+    "trigger": "After the $23k CME loss, realized that while losses were productive (each nudged toward better trading practices), being stuck in the same net worth range for 3 years because of loss magnitude was unsustainable.",
+    "lesson_learned": "Need smaller accountability nudges and regular reviews rather than catastrophic infrequent losses. Built a vibe-coded trading journal that forces daily bias, grades trades per setup, tracks emotional patterns, and identifies where edge is bleeding."
+  },
+  "canonical_instruction": "Identify that the user is learning primarily through catastrophic failures. List the specific lessons each failure taught them. Calculate the cost of those lessons (time, money, opportunity). Identify which lessons could have been learned through systematic tracking instead. Design a tracking system that captures the same feedback signals: daily review prompts, performance grading by category, emotional state logging, and automated pattern detection. Specify the tracking cadence (daily, weekly) and the exact data to capture.",
+  "applicability": {
+    "domains": ["trading", "investing", "business", "skill acquisition", "personal development"],
+    "audiences": ["traders experiencing repeated losses", "entrepreneurs learning through failure", "anyone whose growth depends on painful feedback"],
+    "situations": ["repeated financial losses with learning but no net progress", "pattern of catastrophic failure followed by insight", "feeling stuck despite continuous learning"],
+    "exclusions": ["situations where catastrophic feedback is unavoidable (truly unpredictable events)", "contexts where losses are within acceptable risk tolerance", "early exploration phases where failure rate is expected"]
+  },
+  "transformation_rules": [
+    "List the user's catastrophic failures and the specific lesson from each",
+    "Calculate the cumulative cost (financial, time, opportunity) of learning through catastrophe",
+    "Identify which failure patterns repeat despite the 'lessons learned'",
+    "Map each lesson to a trackable metric or signal that could have surfaced it earlier",
+    "Design a systematic tracking protocol: what to track, how often, what thresholds trigger review",
+    "Specify how the tracking system grades performance and surfaces patterns automatically"
+  ],
+  "tests": [
+    "Output lists specific catastrophic failures with their costs, not generic 'learn from failure' advice",
+    "Output maps at least one lesson to a concrete trackable metric",
+    "Output specifies tracking cadence (daily/weekly) and exact data points to capture",
+    "Output addresses emotional pattern tracking, not just performance metrics",
+    "No suggestion to 'just accept losses as learning' without offering the systematic alternative"
+  ],
+  "counterexamples": [
+    "Losses that were within acceptable risk parameters and didn't set back timeline",
+    "Situations where systematic tracking already exists but is being ignored",
+    "Early-stage exploration where high failure rate is expected and acceptable"
+  ],
+  "input_triggers": [
+    "I keep losing money but I'm learning from it",
+    "my losses have taught me a lot but I'm stuck at the same net worth",
+    "I learn best from painful mistakes",
+    "I've been in the same financial position for years despite growth",
+    "catastrophic losses are my teacher",
+    "I don't want to have to lose to grow",
+    "I need something to hold me accountable between big failures"
+  ],
+  "output_format_targets": ["trading journal design", "accountability system", "personal review protocol", "performance tracking dashboard"],
+  "related": [
+    {
+      "id": "FP-????",
+      "relation": "bundles_with",
+      "note": "May relate to principles about deliberate practice or feedback loops"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0013-Claude-a",
+      "name": "Losses are directive because pain prevents repetition",
+      "role": "mechanism",
+      "pole": "pro-loss-learning",
+      "applies_when": "User has experienced a painful loss and is extracting lessons from it"
+    },
+    {
+      "id": "FP-0013-Claude-b",
+      "name": "Directionality can be added to loss-learning through intentional extraction",
+      "role": "mechanism",
+      "pole": "pro-loss-learning",
+      "applies_when": "User is reflecting on a loss and wants to maximize the learning yield"
+    },
+    {
+      "id": "FP-0013-Claude-c",
+      "name": "Catastrophic losses set back timeline despite learning",
+      "role": "problem",
+      "pole": "anti-catastrophic",
+      "applies_when": "User is stuck at the same net worth for years despite continuous growth"
+    },
+    {
+      "id": "FP-0013-Claude-d",
+      "name": "Systematic tracking replaces catastrophic feedback with smaller nudges",
+      "role": "solution",
+      "pole": "pro-systematic",
+      "applies_when": "User wants to grow without relying on financially irreversible events"
+    }
+  ],
+  "effect_fingerprint": "list_catastrophic_failures->calculate_cumulative_cost->map_lessons_to_metrics->design_tracking_protocol->specify_cadence_and_thresholds",
+  "priority": 70,
+  "specificity": 65,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-23T00:00:00+08:00",
+  "updated_at": "2026-01-23T00:00:00+08:00",
+  "source_transcript": "Hook: last year in 2025 I made the most amount of money I ever did versus the rest of my life combined and then I lost more of it, more than that, in the same year. A lot of people say that it's a super cliche phase when people say 'you learned the most from your losses' but it's true. It's true because I think it's just very human for people not to want to experience that type of pain again.\n\nActually that's not even true. Some people just don't learn from their losses but I think that you could definitely add directionality to what you want to learn from your losses.\n\nLet me give you an example. In 2025 I had three big trading losses.\n1. The first one was that I lost $125k. I went up and down $125,000, which is more than my current portfolio. I got in early with AI, also took the full brunt of the AI crash, and that was in January 2025. The first thing that taught me was that I didn't know shit about trading at all. I need to read a chart.\n2. I joined Miles' High Club and I started to want to read a chart but it just wasn't enough and the progress wasn't as fast and I was still obviously a losing trader.\n3. Then what happened is I think it's August 2025. I oversized in an altcoin called Ray, very high conviction. I lost $30,000. What I learned from Ray is that I needed to narrow my focus down. It wasn't enough just to learn how to trade. What Ray really taught me is that there are certain trading styles and certain trading assets that transcend markets.\n\nOnce I lost the $30,000 on Ray in August 2025, I realized that I want that security. I want that thinking. It goes back to what I was talking about with skills. I want that skill that I could just use to make money that's independent of the asset.\n\nI traded the CME Gap and I was a profitable trader and I overestimated my ability... I took two big losses in a row, CME losses. The first one was 7,000... I learned the wrong lesson. Not all lessons are productive... The next trade, the one that really fucked me, was that there was a CME Gap that opened on New Year's Eve... I just lost 23,000.\n\nThis last $23,000 loss with the CME really had me lock in. I'm in monk mode right now... One of the things this most recent loss really made me want to do is I wanted to vibe code a trading journal that could direct me, that could teach me... I wanted it to force me to take a daily bias. I wanted it to absolutely force me to think through all my trades. I also wanted it to grade me. I also wanted it to track all my trades automatically. I wanted it to grade my trades per set up. I wanted to know my stats. Basically I needed some programmatic tracking that would tell me where I was strong and where I was weak. Most importantly I needed this vibe coded trading journal to track my emotional state over time, over many trades, and tell me where my edge was bleeding based on what I felt, to track my emotional patterns.\n\nClearly losses are very directive and constructive for me but these financial losses also really move my timeline back. I've been stuck in the same net worth range for about 3 years because of the magnitude of these losses.\n\nI need smaller accountability nudges and regular reviews rather than catastrophic infrequent losses that set me back and this is the point of this whole knowledge management system.",
+  "assumptions": [
+    "Classified as bundle because it combines: loss-learning mechanism, problem diagnosis (catastrophic cost), and solution (systematic tracking)",
+    "The specific dollar amounts ($125k, $30k, $7k, $23k) are preserved as concrete evidence",
+    "The trading journal requirements (daily bias, trade grading, emotional tracking) are treated as the solution specification",
+    "Priority 70 reflects high practical urgency (stuck in same net worth for 3 years)",
+    "The 'wrong lesson' example (holding underwater) is preserved to show that not all loss-learning is productive"
+  ]
+}

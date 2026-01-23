@@ -1,0 +1,110 @@
+{
+  "id": "FP-0014-Claude",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Choose skill over niche and let skill acquisition define job selection",
+  "canonical_slug": "skill-over-niche",
+  "aliases": ["skills over niches", "skill-first job selection", "circle of competence trap"],
+  "definition": "Less successful people ask 'what job fits my current skills?' and stay trapped in accessible but low-ceiling options. More successful people ask 'what skill do I want that will help me make money, and which job is the vehicle to learn it?' The belief that any skill is learnable unlocks this thinking, and that belief is built through making skill jumps—the further the jump, the stronger the belief.",
+  "core_claim": "If you are choosing jobs or niches based on what fits your current skill set, then invert the frame and choose the skill you want to learn first, because 'circle of competence' thinking keeps you safe and mediocre while every ultra-successful person is A+ in multiple disciplines they had to learn from scratch.",
+  "idea_origin": {
+    "event_summary": "Argument with friends Rob and Joey about whether Joey should start a gym (accessible, fits current skills) or pursue online business (further from current skills but higher ceiling and better skill development).",
+    "trigger": "Noticing that Rob over-indexed for niche accessibility while speaker argued for skill acquisition potential. Realized this was the same pattern blocking brother Mikey (chose mom's restaurant over crypto opportunity) and Rob himself (considered hosting instead of online closing).",
+    "lesson_learned": "Always choose skill over niche. Let the skill you want to learn define your job. The moment you believe you can learn any skill is the moment you stop feeling trapped. Ultra-successful people (like boss Jiraiya) are well-rounded because they learned skills outside their initial wheelhouse."
+  },
+  "canonical_instruction": "Identify that the user is selecting a job or niche based on current skill fit. List the high-income skills they would NOT learn in that accessible option. Identify an alternative path that would teach those skills even if it's further from their current competence. Show the ceiling comparison: what's the maximum outcome in each path? Specify which skills from the harder path would transfer to future opportunities. Address the belief blocker directly: have they made skill jumps before? If yes, use that as evidence they can do it again. If no, acknowledge that the first jump is the hardest but the belief compounds after.",
+  "applicability": {
+    "domains": ["career decisions", "entrepreneurship", "skill acquisition", "personal development"],
+    "audiences": ["people choosing between job options", "entrepreneurs selecting a business model", "anyone feeling trapped in their current competence"],
+    "situations": ["deciding between accessible low-ceiling option vs harder high-ceiling option", "friends or family advising 'stay in your lane'", "feeling that certain skills are 'not for me'"],
+    "exclusions": ["situations where the accessible option genuinely has higher ceiling", "contexts where immediate income is survival-critical and skill investment is luxury", "domains where credentials are non-negotiable gatekeepers"]
+  },
+  "transformation_rules": [
+    "Identify the user's current decision frame: are they asking 'what fits my skills?' or 'what skill do I want?'",
+    "List the specific high-income skills the accessible option would NOT teach",
+    "List the specific high-income skills the harder option WOULD teach",
+    "Compare the income ceilings of both paths (capped salary vs exponential)",
+    "Identify which skills from the harder path transfer to other domains",
+    "Surface the belief blocker: does the user believe they can learn skills outside their current wheelhouse?",
+    "If belief is weak, prescribe a skill jump as the intervention (the further the better for belief formation)"
+  ],
+  "tests": [
+    "Output names specific high-income skills, not generic 'better opportunities'",
+    "Output compares income ceilings with concrete reasoning (e.g., 'capped by third-world salary' vs 'exponential in 3-5 years')",
+    "Output addresses the belief component: can the user learn skills outside their wheelhouse?",
+    "No generic advice like 'follow your passion' or 'do what you're good at'",
+    "Output identifies skill transferability to future opportunities"
+  ],
+  "counterexamples": [
+    "The accessible option genuinely teaches high-income skills (e.g., sales job at a startup)",
+    "User is in survival mode where immediate income outweighs skill investment",
+    "Domain requires credentials that can't be self-taught (medicine, law)"
+  ],
+  "input_triggers": [
+    "should I start a business in something I already know?",
+    "this job is easier because I already have the skills",
+    "I don't know how to do that, it's outside my wheelhouse",
+    "I should stay in my circle of competence",
+    "that's not my specialty",
+    "it feels inaccessible to me",
+    "I don't know if I could learn that",
+    "what job fits my current skills?"
+  ],
+  "output_format_targets": ["career advice", "job selection framework", "skill acquisition plan", "entrepreneurship coaching"],
+  "related": [
+    {
+      "id": "FP-0013-Claude",
+      "relation": "bundles_with",
+      "note": "Both address growth through intentional skill development rather than passive accumulation"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0014-Claude-a",
+      "name": "The niche-first trap: choosing jobs that fit current skills caps your ceiling",
+      "role": "problem",
+      "pole": "anti-niche-first",
+      "applies_when": "User is evaluating job options primarily by accessibility and current skill fit"
+    },
+    {
+      "id": "FP-0014-Claude-b",
+      "name": "The skill-first frame: let desired skills define job selection",
+      "role": "solution",
+      "pole": "pro-skill-first",
+      "applies_when": "User is willing to take a harder path for better skill acquisition"
+    },
+    {
+      "id": "FP-0014-Claude-c",
+      "name": "Belief that any skill is learnable unlocks the skill-first frame",
+      "role": "enabler",
+      "pole": "pro-skill-first",
+      "applies_when": "User's block is not information but belief in their own learnability"
+    },
+    {
+      "id": "FP-0014-Claude-d",
+      "name": "Skill jump distance correlates with belief formation strength",
+      "role": "mechanism",
+      "pole": "pro-skill-first",
+      "applies_when": "User needs to build belief through action—the further the jump, the stronger the resulting belief"
+    }
+  ],
+  "effect_fingerprint": "identify_decision_frame->list_skills_by_path->compare_ceilings->surface_belief_blocker->prescribe_skill_jump",
+  "priority": 75,
+  "specificity": 60,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-23T00:00:00+08:00",
+  "updated_at": "2026-01-23T00:00:00+08:00",
+  "source_transcript": "Me and Rob got into this sort of argument where I told him he was over-indexing for the niche when you should actually over-index a skill, when you should weight the skill more. What do I mean, right? What kind of skills would Joey learn by managing a gym? Like what kind of actual high-income skills would he learn by doing that? Aside from the obvious it doesn't scale as much as something online, right? If he were to learn skills associated with that, how to do an interview, how to create socials, how to talk to people online, how to create a funnel, that would be so much more successful, right?\n\nAnother example is my brother Mikey. I set everything up so that he could follow my path... My brother didn't. Of course my brother's first question was, 'Do you think I'll make money doing this?' I told him very bluntly. I said, 'I don't know if you do or if you don't but in five years you will definitely be much better in five years versus working for one of mom's restaurants.' Again now he chooses to work for mom's restaurants, right? The fact of the matter is if he works for one of mom's restaurants and he works under my dad, his income is capped. It's capped by the reality of having a salary in a third-world country. It can't be exponential in three to five years.\n\nThe right way of thinking is, 'What skill set do I want to achieve that will help me make money and which niche or job is the vehicle for me to learn that?'\n\nI think the biggest trap for people is to believe that what they can do or the job they have to choose or the niche they have to be in has to be within their circle of competence actually. If there's one absolutely bad critical lesson I want to actually push up against that I used to believe in is 'stay in your circle of competence.' That's bullshit. That's bullshit because everybody super successful is extremely well-rounded and not just well-rounded. They're amazing at multiple disciplines. They're A+ in several things. It's not just one thing.\n\nCircle of competence is the most bullshit theory I used to buy into and it just isn't true anymore. It keeps you safe and mediocre and I feel that kind of thinking is the kind of thinking that's kept people poor and will continue to keep people poor throughout the rest of their lives.\n\nThe lesson to learn is the further the jump the better it does for your belief system once successful and the further the jump the more connections are made in the area between. Basically more new skills are needed for further jumps but that in itself makes it valuable.\n\nThe moment I really believed that I could actually learn every skill, is the moment I stopped feeling trapped in life.",
+  "assumptions": [
+    "Classified as bundle because it combines: problem diagnosis (niche-first trap), solution (skill-first frame), enabler (belief in learnability), and mechanism (jump distance → belief strength)",
+    "The specific examples (Joey/gym, Mikey/restaurant, Rob/hosting, Jiraiya's skill chain) are preserved in idea_origin",
+    "Priority 75 reflects high leverage—this principle affects all major career decisions",
+    "The explicit rejection of 'circle of competence' is treated as core to the principle",
+    "Assumes user has some runway to invest in skill acquisition (not survival mode)"
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "id": "FP-0015-Claude",
+  "schema_version": "1.1.0",
+  "type": "bundle",
+  "name": "Choose your 20s main quest consciously because you cannot run two at once",
+  "canonical_slug": "choose-20s-main-quest",
+  "aliases": ["main quest vs side quest", "money arc vs relationship arc", "choose your 20s wisely"],
+  "definition": "In your 20s, you can have anything you want but not at the same time. There is always a main quest and a side quest. Getting a 10/10 partner takes years of focused effort; making your first million takes years of focused effort. You cannot run both as main quests simultaneously. Money-first is often recommended because business rules change rapidly while relationship principles are stable, but money-first carries the danger of attracting transactional partners and creating permanent doubt. Relationships-first removes that doubt but delays financial progress. Neither guarantees the other. The worst outcome is never choosing—drifting and staying 'balanced' until time chooses for you.",
+  "core_claim": "If you are in your 20s trying to optimize both money and relationships simultaneously, then choose one as your main quest and accept the other as a side quest, because elite outcomes in either domain require years of non-moderate effort, and the worst outcome is letting time choose for you through inaction.",
+  "idea_origin": {
+    "event_summary": "A tweet blew up with pushback saying 'you can do both in your 20s' and 'why does everything have to be so extreme?' Needed to clarify that the discussion is not about work vs play, but about maxing out financial life vs getting the best possible partner.",
+    "trigger": "Realizing that nobody in their 20s side-quested their way to a million dollars, and nobody side-quested their way to a 10/10 wife. Everyone who hit seven figures early grinded like nobody else. Everyone with an ideal partner spent years developing relationship skills.",
+    "lesson_learned": "There is always a main quest. You can't run two at once. One builds on top of the other later in life, but when building your first arc, you must choose. Speaker took 12 years on relationship arc and now wonders if it could have been done in 5-6."
+  },
+  "canonical_instruction": "Identify that the user is trying to optimize two major life domains simultaneously in their 20s. Name both domains explicitly (e.g., money and relationships). Ask which one they would choose if forced. Show the cost of excellence in each domain: what does 'years of non-moderate effort' look like concretely? Present the tradeoff structure: money-first offers dynamic skill advantage but creates partner selection risk; relationships-first offers doubt removal but delays financial progress. Specify that neither guarantees the other. Warn that the worst outcome is not choosing wrong—it's never choosing at all.",
+  "applicability": {
+    "domains": ["life planning", "career decisions", "relationship decisions", "20s optimization"],
+    "audiences": ["people in their 20s trying to 'balance' major life goals", "people receiving 'you can do both' advice", "people feeling behind on multiple fronts"],
+    "situations": ["feeling pressure to optimize money and relationships simultaneously", "being told 'balance is key' when pursuing elite outcomes", "uncertainty about which life arc to prioritize"],
+    "exclusions": ["people who have already completed one arc and are starting the next", "situations where moderate outcomes are acceptable", "contexts where one domain is clearly non-negotiable (e.g., arranged marriage cultures)"]
+  },
+  "transformation_rules": [
+    "Identify the two competing life domains the user is trying to optimize simultaneously",
+    "Ask the forced-choice question: if you had to pick one as main quest, which would it be?",
+    "Describe concretely what 'years of non-moderate effort' looks like in each domain",
+    "Present the money-first tradeoff: faster skill decay in business vs relationship principles, but partner selection risk",
+    "Present the relationships-first tradeoff: removes doubt about partner intentions, but delays financial progress",
+    "Specify that succeeding in one does not guarantee success in the other",
+    "Warn that the worst outcome is drifting without choosing"
+  ],
+  "tests": [
+    "Output names both competing domains explicitly, not generic 'life goals'",
+    "Output includes the forced-choice question: which would you choose?",
+    "Output describes concrete effort requirements for each domain (not 'work hard')",
+    "Output mentions the partner selection risk of money-first",
+    "Output mentions the doubt-removal benefit of relationships-first",
+    "Output warns against 'balance' as the default when pursuing elite outcomes",
+    "No suggestion that moderation leads to elite outcomes in either domain"
+  ],
+  "counterexamples": [
+    "User is already 35+ and the 20s optimization window has passed",
+    "User explicitly wants moderate outcomes in both domains (acceptable tradeoff)",
+    "User is in a culture where partner selection is not their choice"
+  ],
+  "input_triggers": [
+    "I want to focus on my career and my dating life equally",
+    "why can't I do both?",
+    "balance is important to me",
+    "I don't want to sacrifice my relationships for money",
+    "I don't want to sacrifice my career for relationships",
+    "you can have it all",
+    "I'm in my 20s and feel behind on everything",
+    "I'm trying to optimize everything at once"
+  ],
+  "output_format_targets": ["life planning framework", "20s strategy", "priority decision coaching"],
+  "related": [
+    {
+      "id": "FP-0014-Claude",
+      "relation": "bundles_with",
+      "note": "Both involve choosing harder paths for better long-term outcomes over accessible-but-capped options"
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0015-Claude-a",
+      "name": "Main quest / side quest constraint: you cannot run two main quests simultaneously",
+      "role": "constraint",
+      "pole": "structural",
+      "applies_when": "User is trying to give equal priority to two major life domains in their 20s"
+    },
+    {
+      "id": "FP-0015-Claude-b",
+      "name": "Money-first has partner selection risk but dynamic skill advantage",
+      "role": "tradeoff",
+      "pole": "pro-money-first",
+      "applies_when": "User is considering prioritizing career/wealth in their 20s"
+    },
+    {
+      "id": "FP-0015-Claude-c",
+      "name": "Relationships-first removes doubt but delays financial progress",
+      "role": "tradeoff",
+      "pole": "pro-relationships-first",
+      "applies_when": "User is considering prioritizing finding their ideal partner first"
+    },
+    {
+      "id": "FP-0015-Claude-d",
+      "name": "Neither arc guarantees the other",
+      "role": "warning",
+      "pole": "neutral",
+      "applies_when": "User assumes success in one domain will transfer to the other"
+    },
+    {
+      "id": "FP-0015-Claude-e",
+      "name": "The worst outcome is never choosing and letting time decide",
+      "role": "warning",
+      "pole": "anti-drift",
+      "applies_when": "User is defaulting to 'balance' to avoid the hard choice"
+    }
+  ],
+  "effect_fingerprint": "identify_competing_domains->force_choice_question->describe_effort_requirements->present_money_first_tradeoff->present_relationships_first_tradeoff->warn_against_drift",
+  "priority": 80,
+  "specificity": 55,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": null,
+  "evolution_reason": "",
+  "version": "1.0.0",
+  "created_at": "2026-01-23T00:00:00+08:00",
+  "updated_at": "2026-01-23T00:00:00+08:00",
+  "source_transcript": "Hello? So I didn't expect this to blow up and the kind of responses I get are: why must everything be such an extreme? You could do both in your 20s. You could one's not a main quest, one's not a side quest, you could have fun on the weekends and date. So just to get everything very clear, the discussion is not about balancing work and play. It is between balancing getting the best partner you could have and essentially maxing out your financial life. And if anybody tells you you could do both of those in the same arc, they are completely lying. That is not possible. I've not seen one person that has done it that has done both at the same time and gotten it. There is always one that precedes another and there is no such thing as balance when you're chasing one or the other in your 20s.\n\nIf you want the supermodel wife that has high self-esteem, that doesn't cheat, that doesn't look at other guys, that's not transactional, that only looks at you, that wants to build a family that's the best girl you could ever have both subjectively and objectively, you're not going to get there on a side quest learning how to talk to girls once a week. That literally takes years and years and years of work.\n\nLikewise on the other hand i don't know anyone in their twenties that side quested themselves to a million dollars and anybody in their twenties i know that has hit seven figures has grinded like nobody's business. They are so ahead of normal people in their thirties and their ways of thinking are completely different their time management is on another level their energy management is on another level they've got multiple high income skills in multiple verticals that all interact with each other. You don't get that by just doing moderation.\n\nWhen everybody whenever anybody says you could do that at the same time they're lying whenever anybody says which one should you do first i will almost always say do the money part first why is that because the rules of relationships don't really change even if the context does... The rules change all the time for business.\n\nI'm speaking from the point of view of somebody that has had an amazing dating life in my twenties. And I am with that ideal wife that to me, right? Just is a 10 out of 10 essentially, right? And now I find myself in a place that I want to make money for us... there's a part of me that thinks, did it really have to take me 12 years or all of my twenties to figure it out? Could I have done it in five? Could I have done it in six?\n\nThe bottom line is there always is a main quest... There's always a main question side quest. You can't do two main quests at the same time. There is no such thing as having a woman arc, a relationship arc, and a money arc at the same time... One builds on top of the other later in life, but when you're still trying to build your first arc, you have to choose.\n\nJust because you figure one of them out doesn't mean that you're guaranteed to figure out the next. There are tons of rich guys that just can't be in good relationships. They haven't worked on themselves enough. Money doesn't buy great relationships. That's the truth. And there are tons of guys in really happy relationships that just don't have the money.\n\nJust remember that you always have to choose, and the price to pay is everything. So make sure that what you get is worth it.",
+  "assumptions": [
+    "Classified as bundle because it combines: structural constraint (main/side quest), money-first tradeoff, relationships-first tradeoff, non-guarantee warning, and anti-drift warning",
+    "The specific numbers (12 years, 5-6 years, 10/10 wife, seven figures) are preserved as concrete evidence",
+    "Priority 80 reflects existential importance—this decision shapes the entire 20s decade",
+    "The 'rules change for business but not relationships' argument is treated as the primary reason for money-first recommendation",
+    "Uses only raw transcript, not ChatGPT rewrite section"
+  ]
+}

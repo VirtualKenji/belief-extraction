@@ -1,0 +1,127 @@
+{
+  "id": "FP-0013",
+  "schema_version": "1.2.0",
+  "type": "bundle",
+  "artifact_role": "executable",
+  "name": "Single Main Quest Constraint in Your 20s",
+  "canonical_slug": "single-main-quest-constraint-20s",
+  "aliases": ["main quest vs side quest", "money arc vs relationship arc", "no parallel elite arcs"],
+  "definition": "In your 20s, elite-level financial success and elite-level relationship outcomes cannot be pursued simultaneously. Each requires multi-year, full-time focus on distinct skill sets. You must designate one as the main quest and accept the other as a side quest. Money-first is often recommended because business rules change rapidly (dynamic domain) while relationship principles are stable (static domain). Neither arc guarantees the other.",
+  "core_claim": "If an individual in their 20s allocates sustained effort to elite financial outcomes (e.g., seven-figure income), then elite relationship outcomes cannot be developed concurrently, because both require years of full-time skill acquisition, energy management, and behavioral conditioning that cannot be parallelized.",
+  "idea_origin": {
+    "event_summary": "A tweet about choosing between money and relationships in your 20s blew up. Pushback claimed 'you can do both' and 'why does everything have to be extreme?' Speaker clarified: this is not about work vs play, but about maxing out financial life vs getting the best possible partner.",
+    "trigger": "Public pushback asserting balance and moderation. Speaker has not seen one person achieve elite outcomes in both arcs simultaneously in their 20s.",
+    "lesson_learned": "Elite outcomes require sequencing, not balance. Speaker took 12 years on relationship arc and now wonders if it could have been done in 5-6 years. There are rich guys who can't do relationships, and guys in great relationships who don't have money. One doesn't guarantee the other."
+  },
+  "canonical_instruction": "Name the two competing arcs (money and relationships). Ask the user which they would choose if forced to pick one as main quest. List the concrete skills required for elite performance in each arc (money: time management, energy management, multiple high-income skills across verticals; relationships: boundaries, leadership, empathy, communication, reading subtext). State that both require years of full-time effort. Present the money-first argument: business rules change rapidly, relationship principles are stable for thousands of years. Present the relationships-first argument: partner who chose you before resources removes doubt forever. Warn that neither arc guarantees the other. Warn that the worst outcome is never choosing (drifting, staying balanced, letting time decide).",
+  "applicability": {
+    "domains": ["life planning", "career decisions", "relationship decisions", "20s optimization"],
+    "audiences": ["men in their 20s", "people trying to balance money and relationships", "people receiving 'you can do both' advice"],
+    "situations": ["deciding between grinding for seven figures or dating mastery", "attempting to improve finances and relationships simultaneously", "feeling behind on multiple life fronts", "being told 'balance is key' when pursuing elite outcomes"],
+    "exclusions": ["moderate lifestyle goals where elite outcomes are not the target", "people who have already completed one arc", "contexts where one domain is culturally non-negotiable"]
+  },
+  "transformation_rules": [
+    "Name the two competing arcs explicitly (money vs relationships).",
+    "Ask the forced-choice question: if you had to pick one as main quest, which would it be?",
+    "List the specific skills required for elite performance in each arc.",
+    "State the effort requirement: years of full-time focus, not side-questing.",
+    "Present the money-first tradeoff: dynamic rules, but partner selection risk.",
+    "Present the relationships-first tradeoff: stable rules, removes doubt, but delays financial progress.",
+    "Warn that success in one arc does not guarantee success in the other.",
+    "Warn against drifting without choosing."
+  ],
+  "tests": [
+    "Output includes the phrase 'main quest' and 'side quest' or equivalent framing.",
+    "Output includes concrete effort requirement: 'years' of focus, not months.",
+    "Output includes the dynamic vs static domain distinction (business rules change, relationship principles don't).",
+    "Output includes at least one specific number from transcript: 12 years, seven figures, 10 out of 10.",
+    "Output includes the warning that one arc doesn't guarantee the other.",
+    "Output includes the anti-drift warning: worst outcome is never choosing.",
+    "No suggestion that moderation leads to elite outcomes in either domain."
+  ],
+  "counterexamples": [
+    "People pursuing average outcomes in both money and relationships (moderate goals, not elite).",
+    "Someone who has already completed one arc and is now starting the second.",
+    "Cultures where partner selection is not the individual's choice."
+  ],
+  "input_triggers": [
+    "You can do both in your 20s",
+    "Main quest versus side quest",
+    "Why does everything have to be extreme?",
+    "Grinding for money",
+    "Learning dating skills takes years",
+    "I want to focus on career and dating equally",
+    "Balance is important to me",
+    "I don't want to sacrifice relationships for money"
+  ],
+  "output_format_targets": ["life planning frameworks", "priority decision coaching", "20s strategy"],
+  "related": [
+    {
+      "id": "FP-0015-Claude",
+      "relation": "duplicate_of",
+      "note": "Same transcript, different extraction. Consider merging."
+    }
+  ],
+  "components": [
+    {
+      "id": "FP-0013-A",
+      "name": "Main Quest / Side Quest Constraint",
+      "role": "constraint",
+      "pole": "structural",
+      "applies_when": "User is trying to give equal priority to two major life domains in their 20s."
+    },
+    {
+      "id": "FP-0013-B",
+      "name": "Multi-Year Dating Skill Accumulation",
+      "role": "mechanism",
+      "pole": "relationships",
+      "applies_when": "Targeting elite long-term partners (10/10 wife) rather than casual dating."
+    },
+    {
+      "id": "FP-0013-C",
+      "name": "Seven-Figure Financial Grind",
+      "role": "mechanism",
+      "pole": "money",
+      "applies_when": "Pursuing outsized income (seven figures) in early adulthood."
+    },
+    {
+      "id": "FP-0013-D",
+      "name": "Dynamic vs Static Rule Sets",
+      "role": "mechanism",
+      "pole": "decision_factor",
+      "applies_when": "Choosing which arc to prioritize first. Business rules change rapidly; relationship principles are stable."
+    },
+    {
+      "id": "FP-0013-E",
+      "name": "Neither Arc Guarantees the Other",
+      "role": "warning",
+      "pole": "neutral",
+      "applies_when": "User assumes success in one domain transfers to the other."
+    }
+  ],
+  "effect_fingerprint": "name_competing_arcs->force_choice_question->list_skills_per_arc->present_money_first_tradeoff->present_relationships_first_tradeoff->warn_no_guarantee->warn_against_drift",
+  "priority": 75,
+  "specificity": 85,
+  "status": "active",
+  "superseded_by": [],
+  "supersedes": [],
+  "evolution_type": "recompile",
+  "evolution_reason": "Fixed generic effect_fingerprint (was 3 generic verbs, now 7 domain-specific verbs). Added artifact_role. Expanded canonical_instruction with imperative verbs. Added concrete evidence requirements to tests. Added assumptions documenting classification.",
+  "version": "1.2.0",
+  "created_at": "2026-01-23T00:00:00+08:00",
+  "updated_at": "2026-01-23T00:00:00+08:00",
+  "source_transcript": "FP – Chose your 20s Wisely.md",
+  "assumptions": [
+    "Classified as executable: thin narrative acceptable, evidence enforced via tests, optimized for low-inference execution",
+    "Kept source_transcript as filename reference since tests enforce concrete evidence presence (constrained path)",
+    "Classified as bundle: combines structural constraint (main/side quest), two effort mechanisms (dating, money), decision factor (dynamic vs static), and warning (no guarantee)",
+    "Marked as duplicate_of FP-0015-Claude which extracted from same transcript with archival role",
+    "Specific numbers from transcript (12 years, seven figures, 10 out of 10) are required in tests, not embedded in fields"
+  ],
+  "execution_readiness": {
+    "mechanical_executability": 8,
+    "inference_cost": "low",
+    "value_contamination": false,
+    "merge_candidate_score": 8
+  }
+}
